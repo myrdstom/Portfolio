@@ -1,0 +1,31 @@
+.header {
+  padding: 2rem;
+  background-color: rgb(10, 25, 47);
+}
+
+.nav-list{
+  display: flex;
+  justify-content: right;
+  list-style-type: none;
+  margin: 0;
+  padding-right: 4em;
+}
+
+.nav-item{
+  color: rgb(136, 146, 176);
+  font-size: .9rem;
+  margin-right: 1.3rem;
+  text-decoration: none;
+  padding-right: 2em;
+  font-family: Poppins, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+  transition: color 650ms;
+}
+
+
+.nav-item:hover{
+  color: #666666;
+}
+
+.active-nav-item{
+  color: #333333;
+}

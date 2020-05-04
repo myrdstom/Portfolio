@@ -1,0 +1,20 @@
+
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(10, 25, 47);
+
+}
+
+.content{
+  margin: 2rem;
+  font-size: 0.7rem;
+  color: rgb(136, 146, 176);
+  transition: color 650ms;
+}
+
+.content:hover{
+  color: rgb(100, 255, 218);
+}
