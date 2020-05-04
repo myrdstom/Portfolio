@@ -1,0 +1,35 @@
+.container{
+  margin: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.heading{
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 0;
+  margin-bottom: 6rem;
+}
+
+.largeHeading{
+  font-size: 10rem;
+  opacity: .3;
+}
+
+.smallHeading{
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.profilePicture{
+  flex: 1;
+  margin-right: 5rem;
+  max-width: 20%;
+  max-width: 20%;
+}
+
+.details{
+  flex: 1;
+}

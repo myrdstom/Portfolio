@@ -1,0 +1,110 @@
+
+/*Begin title*/
+
+.container {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 1rem;
+}
+.title::before,
+.title::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.title::before {
+  width: 10rem;
+  height: 3px;
+  border-radius: 0.8rem;
+}
+
+.title::after {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  bottom: -1.2rem;
+}
+
+/* End Title */
+
+/* Begin Featured Projects */
+.featuredProjects {
+  margin: 10rem;
+}
+.featuredProject {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5rem;
+}
+
+.featuredProject:last-child {
+  margin-bottom: 0;
+}
+
+.portfolioImage {
+  margin-right: 5rem;
+  margin-bottom: 5rem;
+}
+
+.portfolioImage:last-child {
+  margin-left: 5rem;
+}
+
+.image {
+  margin-top: 20%;
+  height: 300px;
+  width: 500px;
+}
+
+.smallHeading {
+  font-size: 0.5rem;
+  color: rgb(100, 255, 218);
+}
+
+.largeHeading {
+  font-size: 1.5rem;
+  color: rgb(204, 214, 246);
+}
+.content {
+  flex: 1;
+}
+
+/* End Featured Projects*/
+
+/* Begin Other work */
+.otherProjects {
+  min-height: 300px;
+  margin: 10rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 2rem;
+  text-align: center;
+}
+
+.otherProject {
+  background-color: rgb(23, 42, 69);
+  padding: 10px;
+}
+
+.otherProjectTitle {
+  color: rgb(204, 214, 246);
+}
+
+.otherProjectContent {
+  color: rgb(136, 146, 176);
+}
+
+/* End Other work*/
