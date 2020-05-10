@@ -4,11 +4,12 @@ import experienceStyles from "./experience.module.scss"
 const ExperiencePage = () => {
   return (
     <section className={experienceStyles.container}>
-      <h1 id="Experience">Experience</h1>
-      <h1>Past and current jobs</h1>
+      <div className={experienceStyles.titleContainer}>
+      <h1 id="Experience" className={experienceStyles.title}>Where I've worked</h1>
+      </div>
       <div>
         <div className={experienceStyles.timeline}>
-          <ul>
+          <ul className={experienceStyles.ul}>
             <li
               className={experienceStyles.date}
               data-date="Oct 2019 - present"

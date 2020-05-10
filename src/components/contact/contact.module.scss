@@ -1,31 +1,30 @@
 .container{
-  margin: 2rem 15rem 0 15rem;
 }
 
 .container h1{
-  color: rgb(100, 255, 218);
-  font-size: 1rem;
-}
-
-.container h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: rgb(204, 214, 246);
-  font-size: 3rem;
 }
 
-.container div{
+.container p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(10, 25, 47);
   color: rgb(136, 146, 176);
-  font-size: 2rem;
 }
+
 
 .container a{
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   background-color: rgb(10, 25, 47);
   text-decoration: none;
-  margin-top: 2rem;
-  margin-right: 85%;
-  padding: 1.5rem 2rem;
+  margin: 2rem 46rem;
+  padding: 1.5rem 0;
   color: rgb(100, 255, 218);
   border: 1px solid rgb(100, 255, 218);
   border-radius: 5px;

@@ -1,9 +1,35 @@
+
 .container{
-  margin: 10rem;
+  margin: 10rem 15rem 0 15rem;
   display: flex;
   align-items: center;
   justify-content: center;
 
+}
+
+/* Picture begins here */
+
+.profilePicture{
+  flex: 1;
+  margin-right: 5rem;
+  max-width: 20%;
+}
+
+/* Picture ends here*/
+
+/* Content Begins here */
+
+.content{
+  color: rgb(136, 146, 176);
+}
+
+.contentTitle{
+  font-family: Roboto, sans-serif ;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.details{
+  flex: 1;
 }
 
 .heading{
@@ -21,15 +47,17 @@
 .smallHeading{
   font-size: 2rem;
   font-weight: 300;
+  color: rgba(255, 255, 255, 0.3);
 }
 
-.profilePicture{
-  flex: 1;
-  margin-right: 5rem;
-  max-width: 20%;
-  max-width: 20%;
+/* Content Ends here */
+
+/* Tech stack begins here */
+.tech{
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 2rem;
 }
 
-.details{
-  flex: 1;
-}
+/* Tech stack ends here */

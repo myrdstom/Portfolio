@@ -8,19 +8,16 @@ import AboutPage from "../components/about/about"
 import ContactPage from "../components/contact/contact"
 import ExperiencePage from "../components/experience/experience"
 import WorkPage from "../components/work/work"
+import SummaryPage from "../components/summary/summary";
+
+
 const IndexPage = () => {
   return (
     <div className={layoutStyles.body}>
       <Header />
       <div className={layoutStyles.container}>
         <div className={layoutStyles.content}>
-          <h1>Hi</h1>
-          <h1>I'm Paul</h1>
-          <h1>Tinkerer</h1>
-          <div>
-            I create awesome experiences for the web
-          </div>
-
+            <SummaryPage/>
           <AboutPage />
           <ExperiencePage />
           <WorkPage />

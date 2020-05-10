@@ -13,6 +13,14 @@ module.exports = {
         'gatsby-plugin-sharp',
         'gatsby-transformer-sharp',
         {
+            resolve: 'gatsby-plugin-react-svg',
+            options: {
+                rule: {
+                    include: /assets/
+                }
+            }
+        },
+        {
             resolve: 'gatsby-source-filesystem',
             options: {
                 path: path.join(__dirname, `src`, `assets`, `images`),
@@ -31,9 +39,18 @@ module.exports = {
                     {
                         family: `Poppins`,
                         variants: [`400`, `500`],
-                    }
+                    },
+                    {
+                        family: `Open Sans`,
+                        variants: [`400`, `700`]
+                    },
+                    {
+                        family: `Roboto`,
+                        variants: [`100`, `300`]
+                    },
                 ],
             },
         },
+
     ]
 };

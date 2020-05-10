@@ -6,7 +6,6 @@ const Header = () =>{
     return (
         <header className={headerStyles.header}>
             <nav>
-                <div>Logo</div>
                 <ul className={headerStyles.navList}>
                     <li><a className={headerStyles.navItem}  href="#About">About</a></li>
                     <li><a className={headerStyles.navItem}  href="#Experience">Experience</a></li>

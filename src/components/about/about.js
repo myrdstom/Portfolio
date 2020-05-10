@@ -20,8 +20,8 @@ const AboutPage = () => {
       <div className={aboutStyles.container}>
         <div className={aboutStyles.profilePicture}>
           <Img
-              fluid={data.profilePicture.childImageSharp.fluid}
-              alt="This is a picture of my face."
+            fluid={data.profilePicture.childImageSharp.fluid}
+            alt="This is a picture of my face."
           />
         </div>
         <div className={aboutStyles.details}>
@@ -32,13 +32,31 @@ const AboutPage = () => {
 
           <p className={aboutStyles.content}>
             {" "}
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
-            culpa deleniti et magni maxime minima, nesciunt, nihil nulla numquam
-            qui quibusdam rem. Ad cupiditate excepturi facilis fugiat fugit
-            quaerat repellat.
+            <div className={aboutStyles.contentTitle}>I'm a product designer based in  Kampala, Uganda.</div>I
+            enjoy turning complex problems into simple, beautiful and intuitive
+            and performant experiences. Here are a few technologies I've been
+            working with recently
+            <div className={aboutStyles.tech}>
+              <div>
+                <ul>
+                  <li>Javascript (ES6+)</li>
+                  <li>TypeScript</li>
+                  <li>React</li>
+                  <li>Node</li>
+
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>PHP</li>
+                  <li>T-SQL</li>
+                  <li>HTML & (S)CSS</li>
+                  <li>Docker</li>
+                </ul>
+              </div>
+            </div>
           </p>
         </div>
-
       </div>
     </section>
   )
