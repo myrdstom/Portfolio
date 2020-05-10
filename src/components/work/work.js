@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 import { graphql, useStaticQuery } from "gatsby"
 import { FaGithub, FaLink, FaVideo } from "react-icons/fa"
 import { IconContext } from "react-icons"
-import Folder from '../../assets/images/folder.svg'
+import Folder from "../../assets/images/folder.svg"
 
 const WorkPage = () => {
   const data = useStaticQuery(graphql`
@@ -54,10 +54,9 @@ const WorkPage = () => {
               <h1 className={workStyles.largeHeading}>OctoProfile</h1>
             </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
-              deleniti inventore libero maiores minus non omnis saepe sapiente
-              suscipit vel. Architecto autem cumque explicabo ipsum, odit quia
-              saepe sequi similique!
+              A nicer look at your GitHub profile and repos. Includes data
+              visualizations of your top languages, starred repositories, and
+              popular repos.
             </p>
             <div className={workStyles.firstProject}>
               React.js &nbsp; &nbsp; Github API
@@ -103,9 +102,9 @@ const WorkPage = () => {
             <h1 className={workStyles.smallHeading}>Featured Project</h1>
             <h1 className={workStyles.largeHeading}>Listicle </h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-              animi culpa cum debitis eligendi maxime minus quaerat rerum saepe
-              tempora. Ea et facilis fuga illo in ipsum iure neque ratione!
+              Listicle brings all bloggers and blogs under one roof. From
+              technology to relationships, climate change to business, bloggers
+              around the world can showcase their articles and reviews
             </p>
             <div className={workStyles.secondProject}>
               React.js &nbsp;&nbsp; Node.js &nbsp;&nbsp; Express &nbsp;&nbsp;
@@ -169,7 +168,9 @@ const WorkPage = () => {
       <div className={workStyles.otherProjects}>
         <div className={workStyles.otherProject}>
           <div className={workStyles.otherProjectLinks}>
-            <div className={workStyles.svg}><Folder/></div>{" "}
+            <div className={workStyles.svg}>
+              <Folder />
+            </div>{" "}
             <div>
               <IconContext.Provider
                 value={{
@@ -193,32 +194,33 @@ const WorkPage = () => {
           </div>
           <h1 className={workStyles.otherProjectTitle}>Podcaster</h1>
           <p className={workStyles.otherProjectContent}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
-            quod similique vel voluptates! Amet animi dolore incidunt itaque non
-            officiis tempora! Beatae dolore impedit ipsa necessitatibus
-            perferendis. Cum, explicabo, sit.
+            Podcaster aggregates and displays a multitude of podcasts from
+            various resources in one place giving the user a larger selection of
+            podcasts to pick from
           </p>
           <div className={workStyles.projectTech}>
-            TypeScript &nbsp;&nbsp; React.js &nbsp;&nbsp; Node.js &nbsp;&nbsp; Express &nbsp;&nbsp;
-            PostgreSQL
+            TypeScript &nbsp;&nbsp; React.js &nbsp;&nbsp; Node.js &nbsp;&nbsp;
+            Express &nbsp;&nbsp; PostgreSQL
           </div>
         </div>
         <div className={workStyles.otherProject}>
           <div className={workStyles.otherProjectLinks}>
-            <div className={workStyles.svg}><Folder/></div>{" "}
+            <div className={workStyles.svg}>
+              <Folder />
+            </div>{" "}
             <div>
               <IconContext.Provider
-                  value={{
-                    color: "rgb(204, 214, 246)",
-                    className: "global-class-name",
-                    size: "1.4rem",
-                  }}
+                value={{
+                  color: "rgb(204, 214, 246)",
+                  className: "global-class-name",
+                  size: "1.4rem",
+                }}
               >
                 <div className={workStyles.secondProjectLinks}>
                   <a
-                      href="https://github.com/myrdstom/store-manager"
-                      target="_blank"
-                      rel="noreferrer noopener"
+                    href="https://github.com/myrdstom/store-manager"
+                    target="_blank"
+                    rel="noreferrer noopener"
                   >
                     <FaGithub />
                   </a>
@@ -228,10 +230,8 @@ const WorkPage = () => {
           </div>
           <h1 className={workStyles.otherProjectTitle}>Pizzaforte </h1>
           <p className={workStyles.otherProjectContent}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
-            quod similique vel voluptates! Amet animi dolore incidunt itaque non
-            officiis tempora! Beatae dolore impedit ipsa necessitatibus
-            perferendis. Cum, explicabo, sit.
+            A simple chrome extension that tracks a user's actions on
+            https://pizzaforte.hu as they place various orders
           </p>
           <div className={workStyles.projectTech}>
             JavaScript &nbsp;&nbsp; Google Chrome Extension
@@ -239,20 +239,22 @@ const WorkPage = () => {
         </div>
         <div className={workStyles.otherProject}>
           <div className={workStyles.otherProjectLinks}>
-            <div className={workStyles.svg}><Folder/></div>{" "}
+            <div className={workStyles.svg}>
+              <Folder />
+            </div>{" "}
             <div className={workStyles.favicon}>
               <IconContext.Provider
-                  value={{
-                    color: "rgb(204, 214, 246)",
-                    className: "global-class-name",
-                    size: "1.4rem",
-                  }}
+                value={{
+                  color: "rgb(204, 214, 246)",
+                  className: "global-class-name",
+                  size: "1.4rem",
+                }}
               >
                 <div className={workStyles.secondProjectLinks}>
                   <a
-                      href="https://github.com/myrdstom/pizzaforteChromeExtension"
-                      target="_blank"
-                      rel="noreferrer noopener"
+                    href="https://github.com/myrdstom/pizzaforteChromeExtension"
+                    target="_blank"
+                    rel="noreferrer noopener"
                   >
                     <FaGithub />
                   </a>
@@ -262,14 +264,12 @@ const WorkPage = () => {
           </div>
           <h1 className={workStyles.otherProjectTitle}>Store Manager </h1>
           <p className={workStyles.otherProjectContent}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
-            quod similique vel voluptates! Amet animi dolore incidunt itaque non
-            officiis tempora! Beatae dolore impedit ipsa necessitatibus
-            perferendis. Cum, explicabo, sit.
+            Store Manager is a web application that helps store owners manage
+            sales and product inventory records.
           </p>
           <div className={workStyles.projectTech}>
-            Python &nbsp;&nbsp; Flask &nbsp;&nbsp;
-            SQL Queries &nbsp;&nbsp; PostgreSQL
+            Python &nbsp;&nbsp; Flask &nbsp;&nbsp; SQL Queries &nbsp;&nbsp;
+            PostgreSQL
           </div>
         </div>
       </div>

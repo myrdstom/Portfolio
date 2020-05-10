@@ -5,7 +5,9 @@ const ExperiencePage = () => {
   return (
     <section className={experienceStyles.container}>
       <div className={experienceStyles.titleContainer}>
-      <h1 id="Experience" className={experienceStyles.title}>Where I've worked</h1>
+        <h1 id="Experience" className={experienceStyles.title}>
+          Where I've worked
+        </h1>
       </div>
       <div>
         <div className={experienceStyles.timeline}>
@@ -16,10 +18,14 @@ const ExperiencePage = () => {
             >
               <h1>Adam's Studio</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aperiam architecto assumenda atque deleniti ea eum
-                exercitationem fugit hic, itaque labore libero minus odio
-                officia perferendis quam quidem tempore vel voluptate.
+                Write modern performant code for a multitude of clients and
+                internal projects. Work with a variety of technologies inclusive
+                of JavaScript, TypeScript, PHP, T-SQL, React, Express, Docker,
+                Nginx, Digital Ocean.
+                <br />
+                <br />
+                Communicate remotely with a distributed, multi-disciplinary team
+                of engineers, designers and clients on a daily basis
               </p>
             </li>
             <li
@@ -28,10 +34,12 @@ const ExperiencePage = () => {
             >
               <h1>Andela</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Explicabo ipsam numquam totam! Aliquam aspernatur incidunt ipsum
-                mollitia nostrum, rem sapiente sed? Aut corporis doloribus
-                facere harum impedit iste officia quos?
+                Worked with a variety of Technologies at Andela using various
+                Technologies, such as MERN/PREN stack, Python Django
+                <br />
+                <br />
+                Developed and shipped and maintained various in house
+                applications.
               </p>
             </li>
             <li
@@ -40,10 +48,9 @@ const ExperiencePage = () => {
             >
               <h1>March 5 Design</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Eligendi iste magni maxime perspiciatis repellat veritatis,
-                voluptatibus. Alias aperiam esse, fuga fugiat, iste maxime minus
-                nostrum numquam quaerat repellendus veniam vero!
+                Developed and maintained multiple applications for various
+                clients. Worked with core technologies such as Python, Flask,
+                Wordpress, JavaScript, HTML and (S)CSS
               </p>
             </li>
           </ul>

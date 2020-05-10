@@ -1,5 +1,6 @@
 import React from "react"
 import contactStyles from "./contact.module.scss"
+import { FaChevronUp } from "react-icons/fa"
 
 const ContactPage = () => {
   return (
@@ -9,6 +10,9 @@ const ContactPage = () => {
       <span>
         <a href="mailto:nserekopaul@gmail.com">Say Hello</a>
       </span>
+        <div className={contactStyles.up}>
+            <FaChevronUp className={contactStyles.icon}/>
+        </div>
     </div>
   )
 }
