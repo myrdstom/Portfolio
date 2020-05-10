@@ -1,0 +1,363 @@
+/*Begin title*/
+
+.work-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 2rem;
+  font-family: $font-family-title;
+}
+.title::before,
+.title::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.title::before {
+  width: 10rem;
+  height: 3px;
+  border-radius: 0.8rem;
+}
+
+.title::after {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  bottom: -1.2rem;
+}
+
+/* End Title */
+
+/* Begin Featured Projects */
+.work-container .content span {
+  margin-top: 12rem;
+}
+.featuredProjects {
+  margin: 0 15rem;
+}
+.featuredProject {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolioImage {
+  flex: 1;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.content {
+  flex: 1;
+}
+
+.content p {
+  color: rgb(136, 146, 176);
+}
+
+.content:last-child {
+  margin-right: 4rem;
+}
+
+.portfolioImage:last-child {
+  margin-left: 5rem;
+  margin-right: 0;
+  margin-bottom: 5rem;
+}
+
+.project-image {
+  width: 500px;
+  height: 300px;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+.project-image:hover {
+  filter: grayscale(0%);
+}
+
+.work-container .portfolioImage:last-child {
+  margin-left: 5rem;
+  margin-right: 0;
+  margin-bottom: 5rem;
+}
+
+.refactoredImage {
+  display: none;
+}
+
+.work-container .image {
+  margin-top: 20%;
+  height: 300px;
+  width: 500px;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.work-container .image:hover {
+  filter: grayscale(0%);
+}
+
+.firstSmallHeading {
+  margin-top: 7rem;
+  text-align: right;
+}
+
+.smallHeading {
+  font-size: 1rem;
+  font-family: $font-family-title;
+  color: rgb(100, 255, 218);
+}
+
+.largeHeading {
+  font-size: 2rem;
+  color: rgb(204, 214, 246);
+}
+
+.featuredProject p {
+  padding: 2rem;
+  background-color: rgb(23, 42, 69);
+  margin-bottom: 2rem;
+}
+
+.firstProject {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  color: rgb(136, 146, 176);
+  font-family: Roboto, sans-serif;
+  margin-bottom: 2rem;
+}
+
+.secondProject {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: rgb(136, 146, 176);
+  font-family: Roboto, sans-serif;
+  margin-bottom: 2rem;
+}
+
+.firstProjectLinks {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.secondProjectLinks {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* End Featured Projects*/
+
+/* Begin Other work */
+.otherProjects {
+  min-height: 300px;
+  margin: 5rem 15rem 15rem 15rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 2rem;
+}
+
+.otherProject {
+  background-color: rgb(23, 42, 69);
+  padding: 10px;
+}
+
+.otherProjectTitle {
+  color: rgb(204, 214, 246);
+  padding-left: 2rem;
+}
+
+.otherProjectContent {
+  color: rgb(136, 146, 176);
+  margin: 2.5rem 0 2rem 0;
+  font-size: 1rem;
+  padding: 0 2rem;
+}
+.svg {
+  height: 0.5rem;
+  width: 0.5rem;
+  padding-left: 2rem;
+  margin-top: -0.1rem;
+  color: rgb(100, 255, 218);
+  margin-bottom: 2rem;
+}
+
+.otherProjectLinks {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.projectTech {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: rgb(136, 146, 176);
+  font-family: Roboto, sans-serif;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  padding: 0 2rem;
+  line-height: 2rem;
+}
+
+.pizzaforte {
+  text-decoration: none;
+  color: rgb(100, 255, 218);
+}
+
+/* End Other work*/
+
+@media only screen and (max-width: 900px) {
+  //Featured projects
+
+  .work-container .portfolioImage {
+    margin-right: 1rem;
+  }
+
+  .featuredProjects {
+    margin: -8rem 0 -7rem 0;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .featuredProject {
+    display: inherit;
+    margin: 0 2rem;
+  }
+
+  .featuredProject:last-child {
+    margin-bottom: 0;
+  }
+
+  .content:last-child {
+    margin-right: 0;
+  }
+  .listicle-project-image {
+    width: 98%;
+    height: 265px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../../images/listicle.png);
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .octo-project-image {
+    width: 98%;
+    height: 265px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../../images/octoProfile.png);
+    background-size: cover;
+    z-index: -1;
+  }
+  .largeHeading {
+    text-align: left;
+  }
+  .smallHeading {
+    text-align: left;
+  }
+
+  .refactoredImage {
+    display: block;
+    height: 10px;
+    width: 100%;
+    transition: 0.5s;
+    margin: 0 auto;
+  }
+
+  .portfolioImage {
+    width: 100%;
+    height: 125px;
+  }
+
+  .work-container .portfolioImage:last-child {
+    margin-left: 0;
+  }
+
+  .work-container .image {
+    display: none;
+  }
+
+  .firstProjectLinks {
+    margin-top: 15%;
+    margin-right: 4%;
+  }
+
+  .secondProjectLinks {
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 15%;
+    margin-right: 4%;
+  }
+
+  .content p {
+    margin-top: -9rem;
+    margin-right: 1rem;
+    background: none;
+  }
+
+  .firstProject {
+    justify-content: flex-start;
+    margin: 15% 2rem 3rem;
+  }
+
+  .secondProject {
+    margin: 15% 2rem 3rem;
+  }
+
+  // Other projects
+
+  .otherProjects {
+    margin: 0 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .firstProject {
+    margin-top: 18%;
+  }
+
+  .secondProject {
+    margin-top: 18%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .firstProject {
+    margin-right: 2rem;
+  }
+
+  .secondProject {
+    margin-top: 0;
+    margin-right: 2rem;
+  }
+
+  .firstProjectLinks {
+    margin-top: 15%;
+    margin-bottom: 5%;
+  }
+
+  .secondProjectLinks {
+    margin-top: 15%;
+  }
+}
