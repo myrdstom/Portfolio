@@ -1,0 +1,74 @@
+.summary-container{
+  margin: 2rem 15rem 0 15rem;
+}
+
+.summary-container h1{
+  color: rgb(100, 255, 218);
+  font-size: 1rem;
+}
+
+.summary-container h2{
+  color: rgb(204, 214, 246);
+  font-size: 3rem;
+}
+
+.summary-container div{
+  color: rgb(136, 146, 176);
+  font-size: 2rem;
+}
+
+.summary-container a{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: rgb(10, 25, 47);
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-right: 85%;
+  padding: 1.5rem 2rem;
+  color: rgb(100, 255, 218);
+  border: 1px solid rgb(100, 255, 218);
+  border-radius: 5px;
+  transition: background-color 650ms;
+}
+
+.summary-container a:hover{
+  background-color: r$background;
+}
+
+@media screen and (max-width: 1100px){
+  .summary-container a{
+    margin-right: 70%;
+    padding: 1.5rem 0.5rem;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  .summary-container a{
+    margin-right: 50%;
+    padding: 1.5rem 1rem;
+  }
+
+}
+
+@media screen and (max-width: 500px){
+  .summary-container{
+    margin: 2rem 1rem 0 5rem;
+  }
+
+  .summary-container a{
+    margin-right: 50%;
+    padding: 1rem 0.5rem;
+    font-size: 0.7rem;
+  }
+  .summary-container h2{
+    font-size: 1.5rem;
+  }
+
+  .summary-container div{
+    font-size: 1rem;
+  }
+
+
+}
