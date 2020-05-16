@@ -20,7 +20,8 @@
   justify-content: center;
   background-color: rgb(10, 25, 47);
   text-decoration: none;
-  margin: 2rem 46rem;
+  margin: 2rem 45% 2rem 45%;
+
   padding: 1.5rem 0;
   color: rgb(100, 255, 218);
   border: 1px solid rgb(100, 255, 218);
@@ -46,7 +47,9 @@
   cursor: pointer;
 }
 
-.icon{
+
+.icon {
+
   color: #16162d;
   font-size: 1.2rem;
   margin: auto;
@@ -55,21 +58,56 @@
 //
 
 @keyframes pulse {
-  0%{
-    box-shadow: 0 0 0 0 rgba(253, 87,191, 0.99);
-  }
-  70%{
-    box-shadow: 0 0 0 2rem rgba(253, 87,191, 0);
-  }
-  100%{
+
+  0% {
     box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
   }
+  70% {
+    box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+  }
+}
 
+@media only screen and (max-width: 1100px) {
+
+  .contact-container{
+    margin-top: 4rem;
+  }
+  .contact-container a {
+    margin: 2rem 38% 2rem 38%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact-container {
+    margin: 2rem 0 0 2rem;
+  }
+
+  .contact-container a {
+    margin: 2rem 30%;
+  }
+
+
+  .up {
+    display: none;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .icon {
+    font-size: 0.8rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-  .contact-container a{
-    margin: 2rem 4rem;
+  .contact-container {
+    margin: 2rem 0 0 2rem;
+  }
+  .contact-container a {
+    margin: 2rem 6rem 2rem 4rem;
+
   }
 
   .up {
@@ -78,7 +116,9 @@
     height: 2rem;
   }
 
-  .icon{
+
+  .icon {
     font-size: 0.8rem;
   }
 }
+

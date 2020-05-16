@@ -8,7 +8,7 @@ const AboutPage = () => {
             <div className="about-container">
                 <div className="profilePicture">
                     <div className="beforeHeading">
-                        <h1 className="largeHeading">About</h1>
+                        <h1 id="About"className="largeHeading">About</h1>
                         <h1 className="smallHeading">Myself</h1>
                     </div>
                     <div className="profilePicture">

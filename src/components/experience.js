@@ -15,7 +15,7 @@ const ExperiencePage = () => {
                             className="date"
                             data-date="Oct 2019 - present"
                         >
-                            <h1>Adam's Studio</h1>
+                            <h1>Aimform</h1>
                             <h2 className="responsive">Oct 2019 - present</h2>
                             <p>
                                 Write modern performant code for a multitude of clients and
