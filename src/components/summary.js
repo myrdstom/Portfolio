@@ -9,7 +9,6 @@ const SummaryPage = () => {
             <h2>I'm Paul</h2>
             <div>I create awesome experiences for the web</div>
             <span>
-        <a href="mailto:nserekopaul@gmail.com">Get In touch</a>
       </span>
         </section>
     )

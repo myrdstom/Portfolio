@@ -1,5 +1,8 @@
 .about-container {
-  margin: 10rem 15rem 0 15rem;
+
+  //margin: 10rem 15rem 0 15rem;
+  margin: 10% 15% 0 15%;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,7 +46,9 @@
   text-align: center;
   text-transform: uppercase;
   line-height: 0;
-  margin-bottom: 6rem;
+
+  margin: 6rem 0;
+
 }
 
 .about-container .largeHeading {
@@ -63,50 +68,76 @@
 .about-container .tech {
   margin-top: 1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+
+  grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+
   grid-gap: 2rem;
 }
 
 /* Tech stack ends here */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
+  .about-container{
+    margin: 2rem 2rem 0 2rem;
+  }
+
+  .about-container .profilePicture {
+    max-width: 60%;
+    padding-left: 15%;
+    margin-right: 0;
+  }
+
+  .about-container .largeHeading {
+    font-size: 5rem;
+    margin-left: -25rem;
+  }
+
+  .about-container .content{
+    margin: 2rem 2rem 0 2rem;
+  }
+
+  .about-container .smallHeading{
+    margin-left:  -25rem;
+  }
+
   .about-container .tech {
     grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
     grid-gap: 0;
   }
-}
-@media screen and (max-width: 768px) {
-  .about-container .profilePicture {
-    max-width: 60%;
+
+  .profile-image{
+    margin-top: 8rem;
   }
-  .about-container {
-    margin: 2rem 1rem 0 5rem;
-    display: initial;
-  }
-  .about-container .largeHeading {
-    font-size: 5rem;
-  }
-  .about-container .tech {
-    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-    grid-gap: 0;
-  }
+
+
 }
 
-@media screen and (max-width: 500px) {
-  .about-container .profilePicture {
-    max-width: 60%;
-    padding-left: 15%;
-  }
+
+
+@media screen and (max-width: 900px) {
+
 
   .about-container .content{
-    margin-top: 2rem;
+    margin: 2rem 8rem 0 8rem;
   }
+
+  .tech{
+    margin-left: 2rem;
+  }
+
+  .profile-image{
+    margin-top: 0;
+    margin-left: 70%;
+  }
+
 
   .about-container .beforeHeading{
     display: block;
     text-align: center;
     text-transform: uppercase;
     line-height: 0;
-    margin: 6rem 0;
+    margin-top: 6rem ;
+    margin-left: 35%;
+
   }
 
   .about-container .heading{
@@ -114,10 +145,12 @@
   }
   .about-container .largeHeading {
     font-size: 5rem;
-    margin-left: -2rem;
+
+    margin-left: 1.5rem;
   }
 
   .about-container .smallHeading{
+    margin-left: 7rem;
   }
   .about-container .tech {
     grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
@@ -128,3 +161,21 @@
     margin: 0 auto;
   }
 }
+
+
+@media screen and (max-width: 500px) {
+
+  .about-container .content{
+    margin: 2rem 2rem 0 2rem;
+  }
+
+  .about-container .beforeHeading{
+    margin-left: 0;
+  }
+
+  .profile-image{
+    margin-left: 0;
+  }
+
+}
+

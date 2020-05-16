@@ -15,7 +15,9 @@
   margin-bottom: 2rem;
   font-family: $font-family-title;
 }
- .title::before,
+
+.title::before,
+
 .title::after {
   content: "";
   position: absolute;
@@ -25,7 +27,9 @@
   background-color: rgba(255, 255, 255, 0.75);
 }
 
- .title::before {
+
+.title::before {
+
   width: 10rem;
   height: 3px;
   border-radius: 0.8rem;
@@ -41,7 +45,9 @@
 /* End Title */
 
 /* Begin Featured Projects */
-.work-container .content span{
+
+.work-container .content span {
+
   margin-top: 12rem;
 }
 .featuredProjects {
@@ -55,8 +61,9 @@
 
 
 .portfolioImage {
+  flex: 1;
   margin-top: 2rem;
-  margin-right: 5rem;
+  margin-right: 2rem;
   margin-bottom: 1rem;
 
 }
@@ -65,11 +72,14 @@
   flex: 1;
 }
 
-.content p{
+
+.content p {
   color: rgb(136, 146, 176);
 }
 
-
+.content:last-child {
+  margin-right: 4rem;
+}
 
 
 .portfolioImage:last-child {
@@ -78,13 +88,15 @@
   margin-bottom: 5rem;
 }
 
-.project-image{
+
+.project-image {
   width: 500px;
   height: 300px;
   filter: grayscale(100%);
-  transition: .5s;
+  transition: 0.5s;
 }
-.project-image:hover{
+.project-image:hover {
+
   filter: grayscale(0%);
 }
 
@@ -94,7 +106,9 @@
   margin-bottom: 5rem;
 }
 
-.refactoredImage{
+
+.refactoredImage {
+
   display: none;
 }
 
@@ -103,37 +117,44 @@
   height: 300px;
   width: 500px;
   filter: grayscale(100%);
-  transition: .5s;
+
+  transition: 0.5s;
 }
 
-.work-container .image:hover{
+.work-container .image:hover {
   filter: grayscale(0%);
 }
 
-.firstSmallHeading{
+.firstSmallHeading {
+
   margin-top: 7rem;
   text-align: right;
 }
 
- .smallHeading {
+
+.smallHeading {
   font-size: 1rem;
-   font-family: $font-family-title;
+  font-family: $font-family-title;
   color: rgb(100, 255, 218);
 }
 
- .largeHeading {
+.largeHeading {
+
   font-size: 2rem;
   color: rgb(204, 214, 246);
 }
 
-.featuredProject p{
+
+.featuredProject p {
+
   padding: 2rem;
   background-color: rgb(23, 42, 69);
   margin-bottom: 2rem;
 }
 
 
-.firstProject{
+.firstProject {
+
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -143,7 +164,8 @@
 
 }
 
-.secondProject{
+.secondProject {
+
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -153,13 +175,16 @@
 
 }
 
-.firstProjectLinks{
+.firstProjectLinks {
+
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
 }
 
-.secondProjectLinks{
+
+.secondProjectLinks {
+
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -192,7 +217,9 @@
   font-size: 1rem;
   padding: 0 2rem;
 }
-.svg{
+
+.svg {
+
   height: 0.5rem;
   width: 0.5rem;
   padding-left: 2rem;
@@ -202,7 +229,8 @@
 
 }
 
-.otherProjectLinks{
+.otherProjectLinks {
+
   display: grid;
   grid-template-columns: 80% 20%;
   margin-bottom: 1rem;
@@ -210,7 +238,8 @@
 
 }
 
-.projectTech{
+.projectTech {
+
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -223,55 +252,74 @@
 }
 
 
+.pizzaforte {
+  text-decoration: none;
+  color: rgb(100, 255, 218);
+}
+
 /* End Other work*/
 
+@media only screen and (max-width: 900px) {
+  //Featured projects
 
-//@media only screen and (max-width: 900px) {
-//  .image {
-//    height: 150px;
-//    width: 250px;
-//  }
-//}
-//
-//@media only screen and (max-width: 500px) {
-//  .featuredProject{
-//    flex-direction: column;
-//  }
-//
-//  .firstProject{
-//    justify-content: space-evenly;
-//  }
-//
-//  .secondProject{
-//    justify-content: space-evenly;
-//  }
-//}
-
-@media only screen and (max-width: 500px) {
-  .work-container .portfolioImage{
+  .work-container .portfolioImage {
     margin-right: 1rem;
   }
 
-  .featuredProjects{
-    margin: -5rem 0 0 0;
+  .featuredProjects {
+    margin: -8rem 0 -7rem 0;
   }
 
-
-  .featuredProject{
-    flex-direction: column;
+  .image {
+    display: none;
   }
 
+  .featuredProject {
+    display: inherit;
+    margin: 0 2rem;
+  }
 
-  .refactoredImage{
+  .featuredProject:last-child {
+    margin-bottom: 0;
+  }
+
+  .content:last-child {
+    margin-right: 0;
+  }
+  .listicle-project-image {
+    width: 98%;
+    height: 265px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../../images/listicle.png);
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .octo-project-image {
+    width: 98%;
+    height: 265px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../../images/octoProfile.png);
+    background-size: cover;
+    z-index: -1;
+  }
+  .largeHeading {
+    text-align: left;
+  }
+  .smallHeading {
+    text-align: left;
+  }
+
+  .refactoredImage {
     display: block;
-    height: 200px;
-    width: 325px;
-    transition: .5s;
+    height: 10px;
+    width: 100%;
+    transition: 0.5s;
     margin: 0 auto;
   }
 
- .portfolioImage{
-    width: 125px;
+  .portfolioImage {
+    width: 100%;
     height: 125px;
   }
 
@@ -279,19 +327,77 @@
     margin-left: 0;
   }
 
-  .work-container .image{
+
+  .work-container .image {
     display: none;
   }
 
-  .secondProjectLinks{
-    align-items: flex-end;
-    justify-content: flex-end;
+  .firstProjectLinks {
+    margin-top: 15%;
+    margin-right: 4%;
   }
 
-  .otherProjects{
-    margin: 0 auto;
+  .secondProjectLinks {
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 15%;
+    margin-right: 4%;
+  }
+
+  .content p {
+    margin-top: -9rem;
+    margin-right: 1rem;
+    background: none;
+  }
+
+  .firstProject {
+    justify-content: flex-start;
+    margin: 15% 2rem 3rem;
+  }
+
+  .secondProject {
+    margin: 15% 2rem 3rem;
+  }
+
+  // Other projects
+
+  .otherProjects {
+    margin: 0 5%;
+
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     grid-gap: 2rem;
   }
+
 }
+
+@media only screen and (max-width: 768px) {
+  .firstProject {
+    margin-top: 18%;
+  }
+
+  .secondProject {
+    margin-top: 18%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .firstProject {
+    margin-right: 2rem;
+  }
+
+  .secondProject {
+    margin-top: 0;
+    margin-right: 2rem;
+  }
+
+  .firstProjectLinks {
+    margin-top: 15%;
+    margin-bottom: 5%;
+  }
+
+  .secondProjectLinks {
+    margin-top: 15%;
+  }
+}
+
