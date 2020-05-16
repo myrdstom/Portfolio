@@ -1,6 +1,7 @@
 .header {
   padding: 2rem;
   background-color: $background
+
 }
 .newSideBar{
   display: none;
@@ -8,14 +9,15 @@
 
 .navList{
   display: flex;
-  justify-content: right;
+  align-items: flex-end;
+  justify-content: flex-end;
   list-style-type: none;
   margin: 0;
   padding-right: 4em;
 }
 
 .navItem{
-  color: rgb(136, 146, 176);
+  color: $heading-color;
   font-size: .9rem;
   margin-right: 1.3rem;
   text-decoration: none;
@@ -31,4 +33,110 @@
 
 .active-nav-item{
   color: #333333;
+}
+
+@media only screen and (max-width: 800px) {
+  .header {
+    display: none;
+  }
+
+  .sidebar ul a {
+    text-decoration: none;
+  }
+
+  a:hover{
+    text-decoration: none;
+  }
+
+  //Sidebar
+  .newSideBar {
+    position: absolute;
+    display: inline;
+    margin-top: -32px;
+  }
+
+  .sidebar {
+    z-index:111;
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #333;
+    transition: all 0.5s ease;
+  }
+  .sidebar header {
+    font-size: 22px;
+    color: #ffffff;
+    line-height: 70px;
+    text-align: center;
+    background: $background;
+    user-select: none;
+  }
+  .sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: $medium-font-size;
+    color: $highlight-color;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.4s;
+  }
+  ul li:hover a {
+    padding-left: 50px;
+    color: rgb(136, 146, 176);
+  }
+  .sidebar ul a i {
+    margin-right: 16px;
+  }
+  #check {
+    display: none;
+  }
+  label #btn,
+  label #cancel {
+    position: fixed;
+    border-radius: 3px;
+    cursor: pointer;
+    color: blue;
+
+  }
+  #btn:hover,
+  #cancel:hover{
+    color: $heading-color;
+  }
+
+  label #btn {
+    z-index: 1111;
+    left: 30px;
+    top: 25px;
+    font-size: 25px;
+    color: $highlight-color;
+    padding: 6px 12px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  label #cancel {
+    z-index: 1111;
+    left: -195px;
+    top: 20px;
+    font-size: 25px;
+    color: $highlight-color;
+    padding: 4px 9px;
+    transition: all 0.5s ease;
+  }
+  #check:checked ~ .sidebar {
+    left: 0;
+  }
+  #check:checked ~ label #btn {
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+  }
+  #check:checked ~ label #cancel {
+    left: 195px;
+  }
 }
