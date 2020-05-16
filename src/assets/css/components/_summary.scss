@@ -37,20 +37,24 @@
 }
 
 @media screen and (max-width: 1100px){
+
   .summary-container{
     margin: 2rem 12rem 0 12rem;
   }
   .summary-container a{
     margin-right: 50%;
+
     padding: 1.5rem 0.5rem;
   }
 
 }
 
+
 @media screen and (max-width: 800px){
   .summary-container{
     margin: 2rem 10rem 0 10rem;
   }
+
 
 
 }
@@ -61,8 +65,10 @@
   }
 
   .summary-container a{
+
     margin-right: 40%;
     margin-left: 20%;
+
     padding: 1rem 0.5rem;
     font-size: 0.7rem;
   }

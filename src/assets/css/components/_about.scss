@@ -1,6 +1,8 @@
 .about-container {
+
   //margin: 10rem 15rem 0 15rem;
   margin: 10% 15% 0 15%;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +46,9 @@
   text-align: center;
   text-transform: uppercase;
   line-height: 0;
+
   margin: 6rem 0;
+
 }
 
 .about-container .largeHeading {
@@ -64,7 +68,9 @@
 .about-container .tech {
   margin-top: 1rem;
   display: grid;
+
   grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+
   grid-gap: 2rem;
 }
 
@@ -131,6 +137,7 @@
     line-height: 0;
     margin-top: 6rem ;
     margin-left: 35%;
+
   }
 
   .about-container .heading{
@@ -138,6 +145,7 @@
   }
   .about-container .largeHeading {
     font-size: 5rem;
+
     margin-left: 1.5rem;
   }
 
@@ -154,6 +162,7 @@
   }
 }
 
+
 @media screen and (max-width: 500px) {
 
   .about-container .content{
@@ -169,3 +178,4 @@
   }
 
 }
+

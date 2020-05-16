@@ -1,3 +1,4 @@
+
 /*Begin title*/
 
 .work-container {
@@ -14,7 +15,9 @@
   margin-bottom: 2rem;
   font-family: $font-family-title;
 }
+
 .title::before,
+
 .title::after {
   content: "";
   position: absolute;
@@ -24,7 +27,9 @@
   background-color: rgba(255, 255, 255, 0.75);
 }
 
+
 .title::before {
+
   width: 10rem;
   height: 3px;
   border-radius: 0.8rem;
@@ -40,7 +45,9 @@
 /* End Title */
 
 /* Begin Featured Projects */
+
 .work-container .content span {
+
   margin-top: 12rem;
 }
 .featuredProjects {
@@ -52,16 +59,19 @@
   justify-content: center;
 }
 
+
 .portfolioImage {
   flex: 1;
   margin-top: 2rem;
   margin-right: 2rem;
   margin-bottom: 1rem;
+
 }
 
 .content {
   flex: 1;
 }
+
 
 .content p {
   color: rgb(136, 146, 176);
@@ -71,11 +81,13 @@
   margin-right: 4rem;
 }
 
+
 .portfolioImage:last-child {
   margin-left: 5rem;
   margin-right: 0;
   margin-bottom: 5rem;
 }
+
 
 .project-image {
   width: 500px;
@@ -84,6 +96,7 @@
   transition: 0.5s;
 }
 .project-image:hover {
+
   filter: grayscale(0%);
 }
 
@@ -93,7 +106,9 @@
   margin-bottom: 5rem;
 }
 
+
 .refactoredImage {
+
   display: none;
 }
 
@@ -102,6 +117,7 @@
   height: 300px;
   width: 500px;
   filter: grayscale(100%);
+
   transition: 0.5s;
 }
 
@@ -110,9 +126,11 @@
 }
 
 .firstSmallHeading {
+
   margin-top: 7rem;
   text-align: right;
 }
+
 
 .smallHeading {
   font-size: 1rem;
@@ -121,41 +139,52 @@
 }
 
 .largeHeading {
+
   font-size: 2rem;
   color: rgb(204, 214, 246);
 }
 
+
 .featuredProject p {
+
   padding: 2rem;
   background-color: rgb(23, 42, 69);
   margin-bottom: 2rem;
 }
 
+
 .firstProject {
+
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
   color: rgb(136, 146, 176);
   font-family: Roboto, sans-serif;
   margin-bottom: 2rem;
+
 }
 
 .secondProject {
+
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   color: rgb(136, 146, 176);
   font-family: Roboto, sans-serif;
   margin-bottom: 2rem;
+
 }
 
 .firstProjectLinks {
+
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
 }
 
+
 .secondProjectLinks {
+
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -188,23 +217,29 @@
   font-size: 1rem;
   padding: 0 2rem;
 }
+
 .svg {
+
   height: 0.5rem;
   width: 0.5rem;
   padding-left: 2rem;
   margin-top: -0.1rem;
   color: rgb(100, 255, 218);
   margin-bottom: 2rem;
+
 }
 
 .otherProjectLinks {
+
   display: grid;
   grid-template-columns: 80% 20%;
   margin-bottom: 1rem;
   margin-top: 1rem;
+
 }
 
 .projectTech {
+
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -215,6 +250,7 @@
   padding: 0 2rem;
   line-height: 2rem;
 }
+
 
 .pizzaforte {
   text-decoration: none;
@@ -291,6 +327,7 @@
     margin-left: 0;
   }
 
+
   .work-container .image {
     display: none;
   }
@@ -326,10 +363,12 @@
 
   .otherProjects {
     margin: 0 5%;
+
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     grid-gap: 2rem;
   }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -361,3 +400,4 @@
     margin-top: 15%;
   }
 }
+

@@ -1,3 +1,4 @@
+
 .contact-container h1 {
   display: flex;
   align-items: center;
@@ -20,6 +21,7 @@
   background-color: rgb(10, 25, 47);
   text-decoration: none;
   margin: 2rem 45% 2rem 45%;
+
   padding: 1.5rem 0;
   color: rgb(100, 255, 218);
   border: 1px solid rgb(100, 255, 218);
@@ -45,7 +47,9 @@
   cursor: pointer;
 }
 
+
 .icon {
+
   color: #16162d;
   font-size: 1.2rem;
   margin: auto;
@@ -54,6 +58,7 @@
 //
 
 @keyframes pulse {
+
   0% {
     box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
   }
@@ -102,6 +107,7 @@
   }
   .contact-container a {
     margin: 2rem 6rem 2rem 4rem;
+
   }
 
   .up {
@@ -110,7 +116,9 @@
     height: 2rem;
   }
 
+
   .icon {
     font-size: 0.8rem;
   }
 }
+

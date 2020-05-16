@@ -1,6 +1,8 @@
 import React from "react"
+
 import OctoProfile from "../assets/images/octoProfile.png"
 import Listicle from "../assets/images/listicle.png"
+
 import { FaGithub, FaLink, FaVideo } from "react-icons/fa"
 import { IconContext } from "react-icons"
 
@@ -317,6 +319,7 @@ const WorkPage = () => {
       </div>
     </section>
   )
+
 }
 
 export default WorkPage
