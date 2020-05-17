@@ -263,8 +263,7 @@ const WorkPage = () => {
             >
               pizzaforte
             </a>
-            &nbsp;
-            as they place various orders
+            &nbsp; as they place various orders
           </p>
           <div className="projectTech">
             JavaScript &nbsp;&nbsp; Google Chrome Extension
@@ -319,7 +318,6 @@ const WorkPage = () => {
       </div>
     </section>
   )
-
 }
 
 export default WorkPage
