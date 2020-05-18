@@ -7,7 +7,7 @@ const SummaryPage = () => {
     Aos.init({ duration: 2000 })
   }, []);
   return (
-    <section className="summary-container">
+    <section className="summary-container" id="Summary">
       <div data-aos-delay="500" data-aos="fade-right">
         <h1>Hi</h1>
       </div>
