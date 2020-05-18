@@ -1,15 +1,20 @@
-import React from "react"
+import React, {useEffect} from "react"
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 const ExperiencePage = () => {
+    useEffect(()=>{
+        Aos.init({duration: 2000})
+    },[]);
     return (
         <section className="experience-container">
             <div className="titleContainer">
-                <h1 id="Experience" className="title">
+                <h1 data-aos-delay="2000" data-aos="fade-up" id="Experience" className="title">
                     Where I've worked
                 </h1>
             </div>
             <div>
-                <div className="timeline">
+                <div data-aos="fade-up" className="timeline">
                     <ul className="ul">
                         <li
                             className="date"
