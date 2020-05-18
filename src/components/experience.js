@@ -4,12 +4,12 @@ const ExperiencePage = () => {
     return (
         <section className="experience-container">
             <div className="titleContainer">
-                <h1 data-aos-delay="2000" data-aos="fade-up" id="Experience" className="title">
+                <h1 data-aos-delay="2000" data-aos="fade-up" data-aos-once="true" id="Experience" className="title">
                     Where I've worked
                 </h1>
             </div>
             <div>
-                <div data-aos="fade-up" className="timeline">
+                <div data-aos="fade-up" data-aos-once="true" className="timeline">
                     <ul className="ul">
                         <li
                             className="date"

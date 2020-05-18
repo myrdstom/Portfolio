@@ -12,21 +12,21 @@ const AboutPage = () => {
             </h1>
             <h1 className="smallHeading">Myself</h1>
           </div>
-          <div data-aos-delay="1500" data-aos="fade-right" className="profilePicture">
+          <div data-aos-delay="1500" data-aos="fade-right" data-aos-once="true" className="profilePicture">
             <img src={profilePicture} alt="Logo" className="profile-image" />
           </div>
         </div>
         <div className="details">
           <div className="heading">
-            <div data-aos-delay="1000" data-aos="fade-right">
+            <div data-aos-delay="1000" data-aos="fade-right" data-aos-once="true" >
               <h1 className="largeHeading">About</h1>
             </div>
-            <div data-aos-delay="1000" data-aos="fade-left">
+            <div data-aos-delay="1000" data-aos="fade-left" data-aos-once="true" >
               <h1 className="smallHeading">Myself</h1>
             </div>
           </div>
 
-          <p data-aos-delay="1500"data-aos="fade-left" className="content">
+          <p data-aos-delay="1500"data-aos="fade-left" data-aos-once="true" className="content">
             {" "}
             <div className="contentTitle">
               I'm a product designer based in Kampala, Uganda.
