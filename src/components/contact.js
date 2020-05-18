@@ -1,12 +1,8 @@
-import React, { useEffect } from "react"
+import React from "react"
 import { FaChevronUp } from "react-icons/fa"
-import Aos from "aos"
-import "aos/dist/aos.css"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 const ContactPage = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 })
-  }, [])
   return (
     <div className="contact-container">
       <div data-aos="fade-right">

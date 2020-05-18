@@ -1,18 +1,13 @@
-import React, { useEffect } from "react"
+import React  from "react"
 import profilePicture from "../assets/images/profilePicture.png"
-import Aos from "aos"
-import "aos/dist/aos.css"
 
 const AboutPage = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 })
-  }, []);
   return (
     <section>
       <div className="about-container">
         <div className="profilePicture">
           <div className="beforeHeading">
-            <h1 id="About" className="largeHeading">
+            <h1 className="largeHeading">
               About
             </h1>
             <h1 className="smallHeading">Myself</h1>
