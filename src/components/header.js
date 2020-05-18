@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div>
       <header className="nav" id="Nav">
-        <nav data-aos="fade-right">
+        <nav data-aos="fade-right" data-aos-once="true" >
           <ul className="navList">
             <li>
               <AnchorLink className="navItem" href="#Summary">
