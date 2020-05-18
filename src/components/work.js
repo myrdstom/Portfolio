@@ -9,13 +9,13 @@ const WorkPage = () => {
   return (
     <section className="work-section">
       <div className="work-container">
-        <h1 data-aos="fade-up" id="Work" className="title">
+        <h1 data-aos="fade-up" data-aos-once="true" id="Work" className="title">
           Some things I've built
         </h1>
       </div>
       <div className="featuredProjects">
         <div className="featuredProject">
-          <div data-aos="fade-right" className="portfolioImage">
+          <div data-aos="fade-right" data-aos-once="true" className="portfolioImage">
             <div className="image">
               <a
                 href="https://develop.d3lkpp5sspoxme.amplifyapp.com"
@@ -26,7 +26,7 @@ const WorkPage = () => {
               </a>
             </div>
           </div>
-          <div data-aos="fade-left" className="content">
+          <div data-aos="fade-left" data-aos-once="true" className="content">
             <div className="firstSmallHeading">
               <h1 className="smallHeading">Featured Project</h1>
               <h1 className="largeHeading">OctoProfile</h1>
@@ -90,7 +90,7 @@ const WorkPage = () => {
           </div>
         </div>
         <div className="featuredProject">
-          <div data-aos="fade-right" className="content">
+          <div data-aos="fade-right" data-aos-once="true" className="content">
             <h1 className="smallHeading">Featured Project</h1>
             <h1 className="largeHeading">Listicle </h1>
             <div className="portfolioImage">
@@ -148,7 +148,7 @@ const WorkPage = () => {
               </div>
             </IconContext.Provider>
           </div>
-          <div data-aos="fade-left" className="portfolioImage">
+          <div data-aos="fade-left" data-aos-once="true"  className="portfolioImage">
             <div className="image">
               <a
                 href="https://listicle-react.herokuapp.com/"
@@ -161,13 +161,13 @@ const WorkPage = () => {
           </div>
         </div>
       </div>
-      <div data-aos="fade-up" className="work-container">
+      <div data-aos="fade-up" data-aos-once="true" className="work-container">
         <h1 id="Work" className="title">
           Other noteworthy projects
         </h1>
       </div>
       <div className="otherProjects">
-        <div data-aos="fade-up" className="otherProject">
+        <div data-aos="fade-up" data-aos-once="true"  className="otherProject">
           <div className="otherProjectLinks">
             <div className="svg">
               <svg
@@ -215,7 +215,7 @@ const WorkPage = () => {
             Express &nbsp;&nbsp; PostgreSQL
           </div>
         </div>
-        <div data-aos="fade-up" className="otherProject">
+        <div data-aos="fade-up" data-aos-once="true" className="otherProject">
           <div className="otherProjectLinks">
             <div className="svg">
               <svg
@@ -268,7 +268,7 @@ const WorkPage = () => {
             JavaScript &nbsp;&nbsp; Google Chrome Extension
           </div>
         </div>
-        <div data-aos="fade-up" className="otherProject">
+        <div data-aos="fade-up" data-aos-once="true" className="otherProject">
           <div className="otherProjectLinks">
             <div className="svg">
               <svg
