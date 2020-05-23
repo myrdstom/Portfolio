@@ -63,7 +63,7 @@ const WorkPage = () => {
               <div className="firstProjectLinks">
                 <a
                   className="favicon"
-                  href="https://github.com/myrdstom"
+                  href="https://www.loom.com/share/064a7a2dfa15404aaa691a45e1b90b13"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
@@ -123,7 +123,7 @@ const WorkPage = () => {
             >
               <div className="secondProjectLinks">
                 <a
-                  href="https://github.com/myrdstom"
+                  href="https://www.loom.com/share/9487cc3ce9e049cdba50c8cd21ed86d4"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
