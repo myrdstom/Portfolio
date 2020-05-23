@@ -4,6 +4,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll"
 
 const ContactPage = () => {
   return (
+
     <div>
       <section className="contact-container">
         <div data-aos="fade-right" data-aos-once="true">
