@@ -42,22 +42,22 @@ const Header = () => {
           <ul>
             <li>
               <AnchorLink href="#Summary" className="anchorLink">
-                <i className="fa fa-user-o" /> About
+                <i className="fa fa-question-circle-o" /> About
               </AnchorLink>
             </li>
             <li>
               <AnchorLink href="#Experience" className="anchorLink">
-                <i className="fa fa-building" /> Experience
+                <i className="fa fa-sliders" /> Experience
               </AnchorLink>
             </li>
             <li>
               <AnchorLink href="#Work" className="anchorLink">
-                <i className="fa fa-briefcase" /> Work
+                <i className="fa fa-database" /> Work
               </AnchorLink>
             </li>
             <li>
               <AnchorLink href="#Contact" className="anchorLink">
-                <i className="fa fa-phone" />
+                <i className="fa fa-headphones" />
                 Contact
               </AnchorLink>
             </li>
