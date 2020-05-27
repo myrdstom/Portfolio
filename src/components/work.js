@@ -163,7 +163,7 @@ const WorkPage = () => {
       </div>
       <div data-aos="fade-up" data-aos-once="true" className="work-container">
         <h1 id="Work" className="title">
-          Other noteworthy projects
+          &nbsp; Other noteworthy projects
         </h1>
       </div>
       <div className="otherProjects">
