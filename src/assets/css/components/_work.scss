@@ -260,6 +260,11 @@
 /* End Other work*/
 
 @media only screen and (max-width: 900px) {
+
+  .work-section{
+    margin-right: 3rem;
+  }
+
   //Featured projects
 
   .work-container .portfolioImage {
@@ -382,13 +387,19 @@
 }
 
 @media only screen and (max-width: 500px) {
+  .featuredProject p {
+    padding: 2rem 0 2rem 2rem;
+
+  }
+
   .firstProject {
-    margin-right: 2rem;
+    margin-top: -1rem;
+    margin-right: -2rem;
   }
 
   .secondProject {
     margin-top: 0;
-    margin-right: 2rem;
+    margin-right: -2rem;
   }
 
   .firstProjectLinks {
