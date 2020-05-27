@@ -41,10 +41,18 @@ header {
   }
 
   //Sidebar
+
+  .fixed-header{
+    width: 100%;
+    background-color: $background;
+    height: 5rem;
+    position: fixed;
+    margin-top: -2rem;
+    z-index: 1;
+  }
   .newSideBar {
     position: absolute;
     display: inline;
-    margin-top: -32px;
   }
 
   .sidebar {
