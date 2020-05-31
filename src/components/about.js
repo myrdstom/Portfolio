@@ -29,7 +29,7 @@ const AboutPage = () => {
           <p data-aos-delay="1500"data-aos="fade-left" data-aos-once="true" className="content">
             {" "}
             <div className="contentTitle">
-              I'm a product designer based in Kampala, Uganda.
+              I'm a passionate engineer based in Kampala, Uganda.
             </div>
             I enjoy turning complex problems into simple, beautiful and
             intuitive and performant experiences. Here are a few technologies

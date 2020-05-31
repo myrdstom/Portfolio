@@ -4,8 +4,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll"
 const Header = () => {
   const onClick = () => {
     document.getElementById("cancel").click()
-    console.log("clicked me")
-  }
+  };
   return (
     <div>
       <header className="nav" id="Nav">
