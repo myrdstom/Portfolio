@@ -1,13 +1,12 @@
 header {
   padding: 2rem;
-  background-color: $background
-
+  background-color: $background;
 }
-.newSideBar{
+.newSideBar {
   display: none;
 }
 
-.navList{
+.navList {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -16,22 +15,22 @@ header {
   padding-right: 4em;
 }
 
-.navItem{
+.navItem {
   color: $heading-color;
-  font-size: .9rem;
+  font-size: 0.9rem;
   margin-right: 1.3rem;
   text-decoration: none;
   padding-right: 2em;
-  font-family: Poppins, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+  font-family: Poppins, Fira Code, Fira Mono, Roboto Mono, Lucida Console,
+    Monaco, monospace;
   transition: color 650ms;
 }
 
-
-.navItem:hover{
+.navItem:hover {
   color: #666666;
 }
 
-.active-nav-item{
+.active-nav-item {
   color: #333333;
 }
 
@@ -42,7 +41,7 @@ header {
 
   //Sidebar
 
-  .fixed-header{
+  .fixed-header {
     width: 100%;
     background-color: $background;
     height: 5rem;
@@ -56,37 +55,38 @@ header {
   }
 
   .sidebar {
-    z-index:111;
+    z-index: 111;
     position: fixed;
     left: -250px;
     width: 250px;
     height: 100%;
     background: #2f3640;
     transition: all 0.5s ease;
+
+    ul a {
+      display: block;
+      height: 100%;
+      width: 100%;
+      line-height: 65px;
+      font-size: $medium-font-size;
+      color: $highlight-color;
+      padding-left: 40px;
+      box-sizing: border-box;
+      border-bottom: 1px solid black;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      transition: 0.4s;
+      text-decoration: none;
+    }
+
+    ul a i {
+      margin-right: 16px;
+    }
   }
 
-  .sidebar ul a {
-    display: block;
-    height: 100%;
-    width: 100%;
-    line-height: 65px;
-    font-size: $medium-font-size;
-    color: $highlight-color;
-    padding-left: 40px;
-    box-sizing: border-box;
-    border-bottom: 1px solid black;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    transition: 0.4s;
-    text-decoration: none;
-  }
   ul li:hover a {
     padding-left: 50px;
     color: $heading-color;
     text-decoration: none;
-  }
-
-  .sidebar ul a i {
-    margin-right: 16px;
   }
   #check {
     display: none;
@@ -99,7 +99,7 @@ header {
   }
 
   label #btn:hover,
-  label #cancel:hover{
+  label #cancel:hover {
     color: $heading-color;
   }
   label #btn {

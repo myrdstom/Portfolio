@@ -1,6 +1,4 @@
-
 .experience-container {
-
   margin: 5rem 11rem 5rem 25rem;
 }
 /**/
@@ -16,8 +14,6 @@
   font-weight: 300;
   position: relative;
   margin-bottom: 3rem;
-
-
 }
 .title::before,
 .title::after {
@@ -57,47 +53,39 @@
   list-style: none;
   text-align: left;
   width: 70%;
+
+  h1 {
+    font-size: 1.5rem;
+    color: rgb(100, 255, 218);
+    font-weight: 300;
+    margin-bottom: 1rem;
+    opacity: 0.3;
+  }
+
+  h2 {
+    display: none;
+  }
+
+  p {
+    color: rgb(136, 146, 176);
+    font-size: 0.7rem;
+  }
+
+  li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+  }
 }
-
-
-.ul h1 {
-
-  font-size: 1.5rem;
-  color: rgb(100, 255, 218);
-  font-weight: 300;
-  margin-bottom: 1rem;
-
-  opacity: 0.3;
-}
-
-.ul h2 {
-  display: none;
-}
-.ul p {
-
-  color: rgb(136, 146, 176);
-  font-size: 0.7rem;
-}
-
-
-.ul li {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  position: relative;
-}
-
 
 .date {
-
   padding-bottom: 0;
   margin-bottom: 0;
   border: none;
 }
 
 .date::before,
-
 .date::after {
   position: absolute;
   display: block;
@@ -106,14 +94,12 @@
 }
 
 .date::before {
-
   content: attr(data-date);
   left: -20rem;
   text-align: right;
   min-width: 12rem;
   color: rgb(136, 146, 176);
 }
-
 
 .date::after {
   content: "";
@@ -125,7 +111,6 @@
   width: 1.5rem;
   background-color: #313534;
 }
-
 
 @media screen and (max-width: 1200px) {
   .experience-container {
@@ -143,21 +128,16 @@
   }
 
   .ul {
-
     margin: 0 0 0 auto;
     padding: 3rem;
+
+    h2 {
+      display: block;
+      color: rgb(136, 146, 176);
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
   }
-
-
-  .ul h2 {
-
-    display: block;
-    color: rgb(136, 146, 176);
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
-
-
   .date::before {
     display: none;
   }
@@ -167,11 +147,8 @@
   }
 }
 
-
-
 @media screen and (max-width: 500px) {
   .experience-container {
     margin: 2rem 1rem 3rem 0;
   }
 }
-

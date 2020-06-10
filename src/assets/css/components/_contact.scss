@@ -1,21 +1,22 @@
+.contact-container {
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(204, 214, 246);
+  }
 
-.contact-container h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgb(204, 214, 246);
-}
-
-.contact-container p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(10, 25, 47);
-  color: rgb(136, 146, 176);
+  p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(10, 25, 47);
+    color: rgb(136, 146, 176);
+  }
 }
 
 //Begin social media
-.nav-items{
+.nav-items {
   margin: 1rem 0;
   width: 100%;
   display: flex;
@@ -24,38 +25,37 @@
   color: $highlight-color;
 }
 
-.nav-items:hover{
+.nav-items:hover {
   cursor: pointer;
 }
 
-.nav-list{
+.nav-list {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   padding-right: 1.5rem;
 }
-.nav-item{
+.nav-item {
   list-style: none;
   margin-left: 2rem;
 }
 
-.nav-link{
+.nav-link {
   color: $highlight-color;
   font-size: 1.5rem;
+
+  i {
+    transition: color 1000ms;
+  }
 }
 
-.nav-link i{
-  transition: color 1000ms
+.nav-link:hover i.fa-linkedin {
+  color: #0077b5;
 }
 
-.nav-link:hover i.fa-linkedin{
-  color:#0077b5;
-}
-
-.nav-link:hover i.fa-github{
+.nav-link:hover i.fa-github {
   color: #ad5c51;
 }
-
 
 //End social media
 
@@ -92,9 +92,7 @@
   cursor: pointer;
 }
 
-
 .icon {
-
   color: #16162d;
   font-size: 1.2rem;
   margin: auto;
@@ -103,7 +101,6 @@
 //
 
 @keyframes pulse {
-
   0% {
     box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
   }
@@ -116,24 +113,23 @@
 }
 
 @media only screen and (max-width: 1100px) {
-
-  .contact-container{
+  .contact-container {
     margin-top: 4rem;
-  }
-  .contact-container a {
-    margin: 2rem 38% 2rem 38%;
+
+    a {
+      margin: 2rem 38% 2rem 38%;
+    }
   }
 }
 
 @media only screen and (max-width: 800px) {
   .contact-container {
     margin: 2rem 0 0 2rem;
-  }
 
-  .contact-container a {
-    margin: 2rem 30%;
+    a {
+      margin: 2rem 30%;
+    }
   }
-
 
   .up {
     display: none;
@@ -149,10 +145,10 @@
 @media only screen and (max-width: 500px) {
   .contact-container {
     margin: 2rem 0 0 2rem;
-  }
-  .contact-container a {
-    margin: 2rem 6rem 2rem 4rem;
 
+    a {
+      margin: 2rem 6rem 2rem 4rem;
+    }
   }
 
   .up {
@@ -161,16 +157,14 @@
     height: 2rem;
   }
 
-
   .icon {
     font-size: 0.8rem;
   }
-  .nav-item{
+  .nav-item {
     margin-left: 0;
   }
 
-  .nav-list{
+  .nav-list {
     padding-right: 0rem;
   }
 }
-

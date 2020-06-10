@@ -70,11 +70,10 @@
 
 .content {
   flex: 1;
-}
 
-
-.content p {
-  color: rgb(136, 146, 176);
+  p {
+    color: rgb(136, 146, 176);
+  }
 }
 
 .content:last-child {
