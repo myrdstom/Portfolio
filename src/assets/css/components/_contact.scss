@@ -164,6 +164,12 @@
   .icon {
     font-size: 0.8rem;
   }
+
+  .nav-items{
+    width: 65%;
+    padding-left: 3rem;
+  }
+
   .nav-item {
     margin-left: 0;
   }
@@ -172,3 +178,12 @@
     padding-right: 0rem;
   }
 }
+
+
+@media only screen and (max-width: 400px) {
+  .nav-items{
+    width: 58%;
+    padding-left: 2rem;
+  }
+}
+
