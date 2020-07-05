@@ -18,7 +18,7 @@ const WorkPage = () => {
           <div data-aos="fade-right" data-aos-once="true" className="portfolioImage">
             <div className="image">
               <a
-                href="https://develop.d3lkpp5sspoxme.amplifyapp.com"
+                href="https://trusting-snyder-8aafe8.netlify.app/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
@@ -51,11 +51,11 @@ const WorkPage = () => {
               popular repos
             </p>
             <div className="firstProject">
-              React.js &nbsp; &nbsp; Github API
+              TypeScript &nbsp; &nbsp; React.js &nbsp; &nbsp; Github API
             </div>
             <IconContext.Provider
               value={{
-                color: "rgb(204, 214, 246)",
+                color: "#64FFDB",
                 className: "global-class-name",
                 size: "1.5rem",
               }}
@@ -79,7 +79,7 @@ const WorkPage = () => {
                 </a>{" "}
                 &nbsp; &nbsp;
                 <a
-                  href="https://develop.d3lkpp5sspoxme.amplifyapp.com"
+                  href="https://trusting-snyder-8aafe8.netlify.app/"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
@@ -116,7 +116,7 @@ const WorkPage = () => {
             </div>
             <IconContext.Provider
               value={{
-                color: "rgb(204, 214, 246)",
+                color: "#64FFDB",
                 className: "global-class-name",
                 size: "1.5rem",
               }}
@@ -186,7 +186,7 @@ const WorkPage = () => {
             <div>
               <IconContext.Provider
                 value={{
-                  color: "rgb(204, 214, 246)",
+                  color: "#64FFDB",
                   className: "global-class-name",
                   size: "1.4rem",
                 }}
@@ -234,7 +234,7 @@ const WorkPage = () => {
             <div>
               <IconContext.Provider
                 value={{
-                  color: "rgb(204, 214, 246)",
+                  color: "#64FFDB",
                   className: "global-class-name",
                   size: "1.4rem",
                 }}
@@ -287,7 +287,7 @@ const WorkPage = () => {
             <div className="favicon">
               <IconContext.Provider
                 value={{
-                  color: "rgb(204, 214, 246)",
+                  color: "#64FFDB",
                   className: "global-class-name",
                   size: "1.4rem",
                 }}

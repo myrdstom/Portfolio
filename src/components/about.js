@@ -25,11 +25,12 @@ const AboutPage = () => {
               <h1 className="smallHeading">Myself</h1>
             </div>
           </div>
+          <br/>
 
-          <p data-aos-delay="1500"data-aos="fade-left" data-aos-once="true" className="content">
+          <div data-aos-delay="1500"data-aos="fade-left" data-aos-once="true" className="content">
             {" "}
             <div className="contentTitle">
-              I'm a passionate engineer based in Kampala, Uganda.
+              I'm an engineering powerhouse based in Kampala, Uganda.
             </div>
             I enjoy turning complex problems into simple, beautiful and
             intuitive and performant experiences. Here are a few technologies
@@ -40,19 +41,21 @@ const AboutPage = () => {
                   <li>Javascript (ES6+)</li>
                   <li>TypeScript</li>
                   <li>React</li>
+                  <li>React-Native</li>
                   <li>Node</li>
+
                 </ul>
               </div>
               <div>
                 <ul>
-                  <li>PHP</li>
                   <li>T-SQL</li>
                   <li>HTML & (S)CSS</li>
                   <li>Docker</li>
+                  <li>AWS</li>
                 </ul>
               </div>
             </div>
-          </p>
+          </div>
         </div>
       </div>
     </section>
