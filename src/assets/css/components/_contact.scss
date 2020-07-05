@@ -3,15 +3,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(204, 214, 246);
+    color: $small-heading-color;
   }
 
   p {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(10, 25, 47);
-    color: rgb(136, 146, 176);
+    background-color: $background;
+    color: $heading-color;
   }
 }
 
