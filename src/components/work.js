@@ -55,7 +55,7 @@ const WorkPage = () => {
             </div>
             <IconContext.Provider
               value={{
-                color: "rgb(204, 214, 246)",
+                color: "#64FFDB",
                 className: "global-class-name",
                 size: "1.5rem",
               }}
@@ -116,7 +116,7 @@ const WorkPage = () => {
             </div>
             <IconContext.Provider
               value={{
-                color: "rgb(204, 214, 246)",
+                color: "#64FFDB",
                 className: "global-class-name",
                 size: "1.5rem",
               }}
@@ -186,7 +186,7 @@ const WorkPage = () => {
             <div>
               <IconContext.Provider
                 value={{
-                  color: "rgb(204, 214, 246)",
+                  color: "#64FFDB",
                   className: "global-class-name",
                   size: "1.4rem",
                 }}
@@ -234,7 +234,7 @@ const WorkPage = () => {
             <div>
               <IconContext.Provider
                 value={{
-                  color: "rgb(204, 214, 246)",
+                  color: "#64FFDB",
                   className: "global-class-name",
                   size: "1.4rem",
                 }}
@@ -287,7 +287,7 @@ const WorkPage = () => {
             <div className="favicon">
               <IconContext.Provider
                 value={{
-                  color: "rgb(204, 214, 246)",
+                  color: "#64FFDB",
                   className: "global-class-name",
                   size: "1.4rem",
                 }}

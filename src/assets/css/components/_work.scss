@@ -148,7 +148,7 @@
 .featuredProject p {
 
   padding: 2rem;
-  background-color: rgb(23, 42, 69);
+  background-color: $light-background;
   margin-bottom: 2rem;
 }
 
@@ -202,7 +202,7 @@
 }
 
 .otherProject {
-  background-color: rgb(23, 42, 69);
+  background-color: $light-background;
   padding: 10px;
 }
 
