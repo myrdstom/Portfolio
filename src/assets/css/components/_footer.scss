@@ -15,11 +15,11 @@
 .footer-container .content{
   margin: 2rem;
   font-size: 0.7rem;
-  color: rgb(136, 146, 176);
+  color: $heading-color;
   transition: color 650ms;
 }
 
 .footer-container .content:hover{
-  color: rgb(100, 255, 218);
+  color: $highlight-color;
 }
 
