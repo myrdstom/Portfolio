@@ -1,4 +1,4 @@
-import React  from "react"
+import React from "react"
 import profilePicture from "../assets/images/profilePicture.png"
 
 const AboutPage = () => {
@@ -7,27 +7,43 @@ const AboutPage = () => {
       <div className="about-container">
         <div className="profilePicture">
           <div className="beforeHeading">
-            <h1 className="largeHeading">
-              About
-            </h1>
+            <h1 className="largeHeading">About</h1>
             <h1 className="smallHeading">Myself</h1>
           </div>
-          <div data-aos-delay="1500" data-aos="fade-right" data-aos-once="true" className="profilePicture">
+          <div
+            data-aos-delay="1500"
+            data-aos="fade-right"
+            data-aos-once="true"
+            className="profilePicture"
+          >
             <img src={profilePicture} alt="Logo" className="profile-image" />
           </div>
         </div>
         <div className="details">
           <div className="heading">
-            <div data-aos-delay="1000" data-aos="fade-right" data-aos-once="true" >
+            <div
+              data-aos-delay="1000"
+              data-aos="fade-right"
+              data-aos-once="true"
+            >
               <h1 className="largeHeading">About</h1>
             </div>
-            <div data-aos-delay="1000" data-aos="fade-left" data-aos-once="true" >
+            <div
+              data-aos-delay="1000"
+              data-aos="fade-left"
+              data-aos-once="true"
+            >
               <h1 className="smallHeading">Myself</h1>
             </div>
           </div>
-          <br/>
+          <br />
 
-          <div data-aos-delay="1500"data-aos="fade-left" data-aos-once="true" className="content">
+          <div
+            data-aos-delay="1500"
+            data-aos="fade-left"
+            data-aos-once="true"
+            className="content"
+          >
             {" "}
             <div className="contentTitle">
               I'm an engineering powerhouse based in Kampala, Uganda.
@@ -43,7 +59,6 @@ const AboutPage = () => {
                   <li>React</li>
                   <li>React-Native</li>
                   <li>Node</li>
-
                 </ul>
               </div>
               <div>
