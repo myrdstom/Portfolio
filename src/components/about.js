@@ -55,15 +55,12 @@ const AboutPage = () => {
               <div>
                 <ul>
                   <li>Javascript (ES6+)</li>
-                  <li>TypeScript</li>
                   <li>React</li>
-                  <li>React-Native</li>
                   <li>Node</li>
                 </ul>
               </div>
               <div>
                 <ul>
-                  <li>T-SQL</li>
                   <li>HTML & (S)CSS</li>
                   <li>Docker</li>
                   <li>AWS</li>

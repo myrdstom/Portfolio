@@ -6,7 +6,7 @@
     "description": "A nicer look at your GitHub profile and repos.\n<br />\nIt Includes a summary of your bio, data visualizations of your top\nlanguages and most stared repos, and a list of all your most\npopular repos",
     "videoLink": "https://www.loom.com/share/064a7a2dfa15404aaa691a45e1b90b13",
     "applicationLink": "https://trusting-snyder-8aafe8.netlify.app/",
-    "technologies": "TypeScript &nbsp; &nbsp; React.js &nbsp; &nbsp; Github API"
+    "technologies": "TypeScript &nbsp; React.js &nbsp; &nbsp; Github API"
   },
   {
     "id": 2,

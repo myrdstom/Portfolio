@@ -1,9 +1,15 @@
 [
   {
     "id": 1,
+    "employer": "Juniqe",
+    "workDone": "Implemented multiple lambda functions that powered the highly interactive web applications for Junique’s popular wall-art section and customer service tool. <br/><br/>Heavily involved in the implementation of the react-based customer service tool for Juniqe. <br/></br>Worked with a variety of technologies inclusive of, React, Node, AWS Services",
+    "period": "Feb 2021 - Present"
+  },
+  {
+    "id": 1,
     "employer": "Aimform",
     "workDone": "Write modern performant code for a multitude of clients and internal projects. Work with a variety of technologies inclusive of JavaScript, TypeScript, PHP, T-SQL, React, Express, Docker, Nginx, Digital Ocean.<br/><br/>Communicate remotely with a distributed, multi-disciplinary team of engineers, designers and clients on a daily basis",
-    "period": "Oct 2019 - Present"
+    "period": "Oct 2019 - Jan 2021"
   },
   {
     "id": 2,
