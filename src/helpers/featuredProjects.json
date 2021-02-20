@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "projectName": "OctoProfile",
+    "githubLink": "https://github.com/myrdstom/Octo-Profile",
+    "description": "A nicer look at your GitHub profile and repos.\n<br />\nIt Includes a summary of your bio, data visualizations of your top\nlanguages and most stared repos, and a list of all your most\npopular repos",
+    "videoLink": "https://www.loom.com/share/064a7a2dfa15404aaa691a45e1b90b13",
+    "applicationLink": "https://trusting-snyder-8aafe8.netlify.app/",
+    "technologies": "TypeScript &nbsp; &nbsp; React.js &nbsp; &nbsp; Github API"
+  },
+  {
+    "id": 2,
+    "projectName": "Listicle",
+    "githubLink": "https://github.com/myrdstom/listicle-react",
+    "description": "Listicle brings all bloggers and blogs under one roof. From\ntechnology to relationships, climate change to business, bloggers\naround the world can showcase their articles and reviews",
+    "videoLink": "https://www.loom.com/share/9487cc3ce9e049cdba50c8cd21ed86d4",
+    "applicationLink": "https://listicle-react.herokuapp.com/",
+    "technologies": "React.js &nbsp;&nbsp; Node.js &nbsp;&nbsp; Express &nbsp;&nbsp;\nMongoDB &nbsp;&nbsp; Cloudiniary API"
+  }
+]

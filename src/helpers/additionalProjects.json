@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "projectName": "Podcaster",
+    "githubLink": "https://github.com/Podcastup",
+    "description": "Podcaster aggregates and displays a multitude of podcasts from various resources in one place giving the user a larger selection of  podcasts to pick from",
+
+    "technologies": [
+      "TypeScript",
+      "React",
+      "Redux",
+      "Express",
+      "Express",
+      "Node"
+    ]
+  },
+  {
+    "id": 2,
+    "projectName": "Pizzaforte",
+    "description": "A simple chrome extension that tracks a user's actions on &nbsp;\n<a\nhref=\"https://pizzaforte.hu\"\nclassName=\"pizzaforte\"\ntarget=\"_blank\"\nrel=\"nofollow noopener noreferrer\"\n>\npizzaforte\n</a> as they place various orders",
+    "githubLink": "https://github.com/myrdstom/store-manager",
+    "technologies": [
+      "JavaScript",
+      "Google Chrome Extension"
+    ]
+  },
+  {
+    "id": 3,
+    "projectName": "Store Manager",
+    "description": "Store Manager is a web application that helps store owners manage sales and product inventory records.",
+    "githubLink": "https://github.com/myrdstom/store-manager",
+    "technologies": [
+      "TypeScript",
+      "React",
+      "Redux",
+      "Express",
+      "Express",
+      "Node"
+    ]
+  }
+]
