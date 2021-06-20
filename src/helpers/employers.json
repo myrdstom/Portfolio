@@ -2,23 +2,23 @@
   {
     "id": 1,
     "employer": "Juniqe",
-    "workDone": "Implemented multiple lambda functions that powered the highly interactive web applications for Junique’s popular wall-art section and customer service tool. <br/><br/>Heavily involved in the implementation of the react-based customer service tool for Juniqe. <br/></br>Worked with a variety of technologies inclusive of, React, Node, AWS Services",
+    "workDone": "Implemented multiple lambda functions that powered the highly interactive web applications for Junique’s popular wall-art section and customer service tool. <br/><br/>Heavily involved in the implementation of the react-based customer service tool for Juniqe.",
     "period": "Feb 2021 - Present"
   },
   {
-    "id": 1,
+    "id": 2,
     "employer": "Aimform",
     "workDone": "Write modern performant code for a multitude of clients and internal projects. Work with a variety of technologies inclusive of JavaScript, TypeScript, PHP, T-SQL, React, Express, Docker, Nginx, Digital Ocean.<br/><br/>Communicate remotely with a distributed, multi-disciplinary team of engineers, designers and clients on a daily basis",
     "period": "Oct 2019 - Jan 2021"
   },
   {
-    "id": 2,
+    "id": 3,
     "employer": "Andela",
     "workDone": "Worked with a variety of Technologies at Andela using various Technologies, such as MERN/PREN stack, Python Django<br/><br/>Developed and shipped and maintained various in house applications.",
     "period": "Nov 2018 - Sept 2019"
   },
   {
-    "id": 3,
+    "id": 4,
     "employer": "March 5 Design",
     "workDone": "Developed and maintained multiple applications for various clients. Worked with core technologies such as Python, Flask, Wordpress, JavaScript, HTML and (S)CSS",
     "period": "Nov 2017 - Aug 2018"
