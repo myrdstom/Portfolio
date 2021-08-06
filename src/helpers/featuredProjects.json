@@ -10,11 +10,11 @@
   },
   {
     "id": 2,
-    "projectName": "Listicle",
-    "githubLink": "https://github.com/myrdstom/listicle-react",
-    "description": "Listicle brings all bloggers and blogs under one roof. From\ntechnology to relationships, climate change to business, bloggers\naround the world can showcase their articles and reviews",
-    "videoLink": "https://www.loom.com/share/9487cc3ce9e049cdba50c8cd21ed86d4",
-    "applicationLink": "https://listicle-react.herokuapp.com/",
-    "technologies": "React.js &nbsp;&nbsp; Node.js &nbsp;&nbsp; Express &nbsp;&nbsp;\nMongoDB &nbsp;&nbsp; Cloudiniary API"
+    "projectName": "$entesol",
+    "githubLink": "https://github.com/SenteSol/finance-app",
+    "description": "Is an application that offers multiple  financing solutions. It's still a work in progress but it is at the point where at the very least can show off  my growth as a coder",
+    "videoLink": "https://www.loom.com/share/3f024094d2c24a03a824c4f132ca4b22",
+    "applicationLink": "https://quizzical-snyder-adfaf2.netlify.app",
+    "technologies": "React.js &nbsp;&nbsp; Node.js &nbsp;&nbsp; Express &nbsp;&nbsp;\nMongoDB &nbsp;&nbsp; HighCharts"
   }
 ]
