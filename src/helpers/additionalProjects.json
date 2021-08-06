@@ -1,15 +1,14 @@
 [
   {
     "id": 1,
-    "projectName": "Podcaster",
-    "githubLink": "https://github.com/Podcastup",
-    "description": "Podcaster aggregates and displays a multitude of podcasts from various resources in one place giving the user a larger selection of  podcasts to pick from",
-
+    "projectName": "Listicle",
+    "githubLink": "https://github.com/myrdstom/listicle-react",
+    "description": "Listicle brings all bloggers and blogs under one roof. From\ntechnology to relationships, climate change to business, bloggers\naround the world can showcase their articles and reviews",
+    "videoLink": "https://www.loom.com/share/9487cc3ce9e049cdba50c8cd21ed86d4",
+    "applicationLink": "https://listicle-react.herokuapp.com/",
     "technologies": [
-      "TypeScript",
       "React",
       "Redux",
-      "Express",
       "Express",
       "Node"
     ]
