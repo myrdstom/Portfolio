@@ -29,12 +29,10 @@
     "description": "Store Manager is a web application that helps store owners manage sales and product inventory records.",
     "githubLink": "https://github.com/myrdstom/store-manager",
     "technologies": [
-      "TypeScript",
-      "React",
-      "Redux",
-      "Express",
-      "Express",
-      "Node"
+      "Python",
+      "Flask",
+      "Flask-Restful",
+      "SQL"
     ]
   }
 ]
