@@ -58,23 +58,24 @@
   background: transparent;
   border-color: transparent;
   text-transform: capitalize;
-  font-size: 1.25rem;
+  font-size: 1rem;
   letter-spacing: 0.2rem;
-  margin: 0 0.5rem;
   transition: all 0.3s linear;
   cursor: pointer;
-  padding: 0.25rem 0;
+  padding: 0.25rem 0.5rem;
   line-height: 1;
-  color: $heading-color;;
+  color: $heading-color;
 }
 
 .job-btn:hover {
   color: $highlight-color;
   box-shadow: 0 2px $highlight-color;
+  background: $dark-background;
 }
 .active-btn {
   color: $highlight-color;
   box-shadow: 0 2px $highlight-color;
+  background: $dark-background;
 }
 
 .job-info h3 {
@@ -113,6 +114,7 @@
   .btn-container {
     flex-direction: column;
     justify-content: flex-start;
+    border-left: 2px solid $light-background;
   }
   .job-btn {
     margin-bottom: 1rem;

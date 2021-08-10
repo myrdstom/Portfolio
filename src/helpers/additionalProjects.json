@@ -16,7 +16,7 @@
   {
     "id": 2,
     "projectName": "Pizzaforte",
-    "description": "A simple chrome extension that tracks a user's actions on &nbsp;\n<a\nhref=\"https://pizzaforte.hu\"\nclassName=\"pizzaforte\"\ntarget=\"_blank\"\nrel=\"nofollow noopener noreferrer\"\n>\npizzaforte\n</a> as they place various orders",
+    "description": "A simple chrome extension that tracks a user's actions on &nbsp;\n<a  style=\"color: #cacaca; text-decoration: none;\" \nhref=\"https://pizzaforte.hu\"\nclassName=\"pizzaforte\"\ntarget=\"_blank\"\nrel=\"nofollow noopener noreferrer\"\n >\npizzaforte\n</a> as they place various orders",
     "githubLink": "https://github.com/myrdstom/store-manager",
     "technologies": [
       "JavaScript",
