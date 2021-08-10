@@ -1,26 +1,36 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "employer": "Juniqe",
-    "workDone": "Implemented multiple lambda functions that powered the highly interactive web applications for Junique’s popular wall-art section and customer service tool. <br/><br/>Heavily involved in the implementation of the react-based customer service tool for Juniqe.",
+    "workDone": [
+      "Implemented multiple lambda functions that powered the highly interactive web applications for Junique’s popular wall-art section and customer service tool",
+      "Heavily involved in the implementation of new features for the react-based customer service tool for Juniqe."
+    ],
     "period": "Feb 2021 - Present"
   },
   {
-    "id": 2,
+    "id": 1,
     "employer": "Aimform",
-    "workDone": "Write modern performant code for a multitude of clients and internal projects. Work with a variety of technologies inclusive of JavaScript, TypeScript, PHP, T-SQL, React, Express, Docker, Nginx, Digital Ocean.<br/><br/>Communicate remotely with a distributed, multi-disciplinary team of engineers, designers and clients on a daily basis",
+    "workDone": [
+      "Analyzed requirements and designed, developed and implemented software applications for various clientele ranging from simple APIs to data analysis and visualization.",
+      "Discussed project progress with customers, collected feedback on different stages, and directly addressed concerns.",
+      "Performed software testing to uncover bugs and troubleshoot performance issues prior to application launch."
+    ],
     "period": "Oct 2019 - Jan 2021"
   },
   {
-    "id": 3,
+    "id": 2,
     "employer": "Andela",
-    "workDone": "Worked with a variety of Technologies at Andela using various Technologies, such as MERN/PREN stack, Python Django<br/><br/>Developed and shipped and maintained various in house applications.",
+    "workDone": [
+      "Engineered and maintained major features of Andela’s engineer placement process managing app.",
+      "Orchestrated efficient large-scale software deployments, including testing features and correcting code."
+    ],
     "period": "Nov 2018 - Sept 2019"
   },
   {
-    "id": 4,
+    "id": 3,
     "employer": "March 5 Design",
-    "workDone": "Developed and maintained multiple applications for various clients. Worked with core technologies such as Python, Flask, Wordpress, JavaScript, HTML and (S)CSS",
+    "workDone": ["Developed and maintained multiple applications for various clients. Worked with core technologies such as Python, Flask, Wordpress, JavaScript, HTML and (S)CSS"],
     "period": "Nov 2017 - Aug 2018"
   }
 ]

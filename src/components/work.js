@@ -17,86 +17,7 @@ const WorkPage = () => {
         </h1>
       </div>
       <div className="featuredProjects">
-        <div className="featuredProject">
-          <div data-aos="fade-right" data-aos-once="true" className="content">
-            <h1 className="smallHeading">Featured Project</h1>
-            <h1 className="largeHeading">{featuredProjects[1].projectName} </h1>
-            <div className="portfolioImage">
-              <div className="refactoredImage">
-                <div className="listicle-project-image">
-                  {" "}
-                  <a
-                    href={featuredProjects[1].applicationLink}
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  />
-                </div>
-              </div>
-            </div>
-            <p>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: featuredProjects[1].description,
-                }}
-              />
-            </p>
-            <div className="secondProject">
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: featuredProjects[1].technologies,
-                }}
-              />
-            </div>
-            <IconContext.Provider
-              value={{
-                color: "#64FFDB",
-                className: "global-class-name",
-                size: "1.5rem",
-              }}
-            >
-              <div className="secondProjectLinks">
-                <a
-                  href={featuredProjects[1].videoLink}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <FaVideo />
-                </a>{" "}
-                &nbsp; &nbsp;
-                <a
-                  href={featuredProjects[1].githubLink}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <FaGithub />
-                </a>{" "}
-                &nbsp; &nbsp;
-                <a
-                  href={featuredProjects[1].applicationLink}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <FaLink />
-                </a>
-              </div>
-            </IconContext.Provider>
-          </div>
-          <div
-            data-aos="fade-left"
-            data-aos-once="true"
-            className="portfolioImage"
-          >
-            <div className="image">
-              <a
-                href={featuredProjects[1].applicationLink}
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <img src={SenteSol} alt="Logo" className="project-image" />
-              </a>
-            </div>
-          </div>
-        </div>
+
         <div className="featuredProject">
           <div
             data-aos="fade-right"
@@ -179,6 +100,86 @@ const WorkPage = () => {
                 </a>
               </div>
             </IconContext.Provider>
+          </div>
+        </div>
+        <div className="featuredProject">
+          <div data-aos="fade-right" data-aos-once="true" className="content">
+            <h1 className="smallHeading">Featured Project</h1>
+            <h1 className="largeHeading">{featuredProjects[1].projectName} </h1>
+            <div className="portfolioImage">
+              <div className="refactoredImage">
+                <div className="listicle-project-image">
+                  {" "}
+                  <a
+                    href={featuredProjects[1].applicationLink}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  />
+                </div>
+              </div>
+            </div>
+            <p>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: featuredProjects[1].description,
+                }}
+              />
+            </p>
+            <div className="secondProject">
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: featuredProjects[1].technologies,
+                }}
+              />
+            </div>
+            <IconContext.Provider
+              value={{
+                color: "#64FFDB",
+                className: "global-class-name",
+                size: "1.5rem",
+              }}
+            >
+              <div className="secondProjectLinks">
+                <a
+                  href={featuredProjects[1].videoLink}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <FaVideo />
+                </a>{" "}
+                &nbsp; &nbsp;
+                <a
+                  href={featuredProjects[1].githubLink}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <FaGithub />
+                </a>{" "}
+                &nbsp; &nbsp;
+                <a
+                  href={featuredProjects[1].applicationLink}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <FaLink />
+                </a>
+              </div>
+            </IconContext.Provider>
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-once="true"
+            className="portfolioImage"
+          >
+            <div className="image">
+              <a
+                href={featuredProjects[1].applicationLink}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img src={SenteSol} alt="Logo" className="project-image" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
