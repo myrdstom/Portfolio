@@ -14,7 +14,7 @@ const ContactPage = () => {
           <ul className="nav-list">
             <li className="nav-item">
               <a
-                href="https://www.linkedin.com/in/kayongo-paul-72314656/"
+                href="https://www.linkedin.com/in/kayongo-p-72314656/"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="nav-link"

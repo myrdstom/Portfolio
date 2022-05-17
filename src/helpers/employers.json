@@ -1,15 +1,24 @@
 [
   {
     "id": 0,
+    "employer": "Pumas-AI",
+    "workDone": [
+      "Mostly worked on the Frontend of various Pumas Healthcare Analytics Tools",
+      "Led the frontend team rebuilding the Pumas NCA reporting and analysis tool from scratch making significant improvements to code re-usability, testing, and performance."
+    ],
+    "period": "Jan 2022 - Present"
+  },
+  {
+    "id": 1,
     "employer": "Juniqe",
     "workDone": [
       "Implemented multiple lambda functions that powered the highly interactive web applications for Junique’s popular wall-art section and customer service tool",
       "Heavily involved in the implementation of new features for the react-based customer service tool for Juniqe."
     ],
-    "period": "Feb 2021 - Present"
+    "period": "Feb 2021 - November 2021"
   },
   {
-    "id": 1,
+    "id": 2,
     "employer": "Aimform",
     "workDone": [
       "Analyzed requirements and designed, developed and implemented software applications for various clientele ranging from simple APIs to data analysis and visualization.",
@@ -19,7 +28,7 @@
     "period": "Oct 2019 - Jan 2021"
   },
   {
-    "id": 2,
+    "id": 3,
     "employer": "Andela",
     "workDone": [
       "Engineered and maintained major features of Andela’s engineer placement process managing app.",
@@ -28,7 +37,7 @@
     "period": "Nov 2018 - Sept 2019"
   },
   {
-    "id": 3,
+    "id": 4,
     "employer": "March 5 Design",
     "workDone": ["Developed and maintained multiple applications for various clients. Worked with core technologies such as Python, Flask, Wordpress, JavaScript, HTML and (S)CSS"],
     "period": "Nov 2017 - Aug 2018"
