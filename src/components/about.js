@@ -56,14 +56,11 @@ const AboutPage = () => {
                 <ul>
                   <li>Javascript (ES6+)</li>
                   <li>React</li>
-                  <li>Node</li>
                 </ul>
               </div>
               <div>
                 <ul>
-                  <li>HTML & (S)CSS</li>
-                  <li>Docker</li>
-                  <li>AWS</li>
+                  <li>Julia</li>
                 </ul>
               </div>
             </div>
