@@ -60,7 +60,7 @@ const AboutPage = () => {
               </div>
               <div>
                 <ul>
-                  <li>Julia</li>
+                  <li>React-Query</li>
                 </ul>
               </div>
             </div>
