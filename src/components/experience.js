@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import employers from "../helpers/employers"
+import employers from "../data/employers"
 import { FaAngleDoubleRight } from "react-icons/fa"
 
 const ExperiencePage = () => {

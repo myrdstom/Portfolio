@@ -4,8 +4,8 @@ import SenteSol from "../assets/images/SenteSol.png"
 
 import { FaGithub, FaLink, FaVideo } from "react-icons/fa"
 import { IconContext } from "react-icons"
-import additionalProjects from "../helpers/additionalProjects"
-import featuredProjects from "../helpers/featuredProjects"
+import additionalProjects from "../data/additionalProjects"
+import featuredProjects from "../data/featuredProjects"
 
 const WorkPage = () => {
 
