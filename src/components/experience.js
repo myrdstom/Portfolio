@@ -18,10 +18,10 @@ const ExperiencePage = () => {
         </h1>
       </div>
       <div>
-          <section data-aos="fade-up" data-aos-once="true" >
-            <div className="jobs-center">
-              <div className="btn-container">
-                {employers &&
+        <section data-aos="fade-up" data-aos-once="true">
+          <div className="jobs-center">
+            <div className="btn-container">
+              {employers &&
                 employers.map((item, i) => (
                   <button
                     key={item.id}
@@ -31,22 +31,19 @@ const ExperiencePage = () => {
                     <span className="employer">{item.employer}</span>
                   </button>
                 ))}
-              </div>
-              <article className="job-info">
-                <h3>Software Developer</h3>
-                <p className="job-date">{employers[jobs].period}</p>
-                {
-                  employers[jobs].workDone.map((item,i) =>(
-                    <div key={i} className="job-desc">
-                      <FaAngleDoubleRight className="job-icon"/>
-                      <p>{item}</p>
-                    </div>
-                  ))
-                }
-
-              </article>
             </div>
-          </section>
+            <article className="job-info">
+              <h3>{employers[jobs].role}</h3>
+              <p className="job-date">{employers[jobs].period}</p>
+              {employers[jobs].workDone.map((item, i) => (
+                <div key={i} className="job-desc">
+                  <FaAngleDoubleRight className="job-icon" />
+                  <p>{item}</p>
+                </div>
+              ))}
+            </article>
+          </div>
+        </section>
       </div>
     </section>
   )

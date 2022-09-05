@@ -1,25 +1,21 @@
-
-
-.footer-container{
+.footer-container {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: $dark-background;
-
 }
 
-.footer-container a{
+.footer-container a {
   text-decoration: none;
 }
 
-.footer-container .content{
+.footer-container .content {
   margin: 2rem;
   font-size: 0.7rem;
   color: $heading-color;
   transition: color 650ms;
 }
 
-.footer-container .content:hover{
+.footer-container .content:hover {
   color: $highlight-color;
 }
-

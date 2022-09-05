@@ -3,6 +3,7 @@
 Version one of my portfolio site (WIP)
 
 ## Hosting
+
 - The app is hosted on [Netlify](https://brave-rosalind-838590.netlify.app/)
 
 ## Run the app

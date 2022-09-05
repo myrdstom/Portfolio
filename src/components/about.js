@@ -54,7 +54,7 @@ const AboutPage = () => {
             <div className="tech">
               <div>
                 <ul>
-                  <li>Javascript (ES6+)</li>
+                  <li>TypeScript</li>
                   <li>React</li>
                   <li>React-Query</li>
                 </ul>

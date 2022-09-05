@@ -33,11 +33,7 @@ const ContactPage = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a
-                href={Resume}
-                download
-                className="nav-link"
-              >
+              <a href={Resume} download className="nav-link">
                 <i className="fa fa-file-pdf-o" />
               </a>
             </li>
