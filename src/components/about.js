@@ -56,11 +56,12 @@ const AboutPage = () => {
                 <ul>
                   <li>Javascript (ES6+)</li>
                   <li>React</li>
+                  <li>React-Query</li>
                 </ul>
               </div>
               <div>
                 <ul>
-                  <li>React-Query</li>
+                  <li>Julia</li>
                 </ul>
               </div>
             </div>
