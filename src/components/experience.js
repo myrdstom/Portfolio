@@ -33,7 +33,7 @@ const ExperiencePage = () => {
                 ))}
               </div>
               <article className="job-info">
-                <h3>Software Developer</h3>
+                <h3>{employers[jobs].role}</h3>
                 <p className="job-date">{employers[jobs].period}</p>
                 {
                   employers[jobs].workDone.map((item,i) =>(
