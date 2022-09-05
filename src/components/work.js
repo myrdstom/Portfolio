@@ -8,7 +8,6 @@ import additionalProjects from "../data/additionalProjects"
 import featuredProjects from "../data/featuredProjects"
 
 const WorkPage = () => {
-
   return (
     <section className="work-section">
       <div className="work-container">
@@ -17,7 +16,6 @@ const WorkPage = () => {
         </h1>
       </div>
       <div className="featuredProjects">
-
         <div className="featuredProject">
           <div
             data-aos="fade-right"
@@ -37,7 +35,9 @@ const WorkPage = () => {
           <div data-aos="fade-left" data-aos-once="true" className="content">
             <div className="firstSmallHeading">
               <h1 className="smallHeading">Featured Project</h1>
-              <h1 className="largeHeading">{featuredProjects[0].projectName}</h1>
+              <h1 className="largeHeading">
+                {featuredProjects[0].projectName}
+              </h1>
             </div>
             <div className="portfolioImage">
               <div className="refactoredImage">
@@ -53,17 +53,16 @@ const WorkPage = () => {
             </div>
             <p>
               <span
-                  dangerouslySetInnerHTML={{
-                    __html: featuredProjects[0].description,
-                  }}
+                dangerouslySetInnerHTML={{
+                  __html: featuredProjects[0].description,
+                }}
               />
-
             </p>
             <div className="firstProject">
               <span
-                  dangerouslySetInnerHTML={{
-                    __html: featuredProjects[0].technologies,
-                  }}
+                dangerouslySetInnerHTML={{
+                  __html: featuredProjects[0].technologies,
+                }}
               />
             </div>
             <IconContext.Provider
@@ -190,8 +189,12 @@ const WorkPage = () => {
       </div>
       <div className="otherProjects">
         {additionalProjects.map((project) => (
-
-          <div key={project.id} data-aos="fade-up" data-aos-once="true" className="otherProject">
+          <div
+            key={project.id}
+            data-aos="fade-up"
+            data-aos-once="true"
+            className="otherProject"
+          >
             {console.log(project.description)}
             <div className="otherProjectLinks">
               <div className="svg">
@@ -229,14 +232,18 @@ const WorkPage = () => {
               </div>
             </div>
             <h1 className="otherProjectTitle">{project.projectName} </h1>
-            <p className="otherProjectContent"><span
+            <p className="otherProjectContent">
+              <span
                 dangerouslySetInnerHTML={{
                   __html: project.description,
                 }}
-            /></p>
+              />
+            </p>
 
             <div className="projectTech">
-              {project.technologies.map((item, i) => (<span key={i}>{item}&nbsp; &nbsp;</span> ))}
+              {project.technologies.map((item, i) => (
+                <span key={i}>{item}&nbsp; &nbsp;</span>
+              ))}
             </div>
           </div>
         ))}

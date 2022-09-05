@@ -11,8 +11,6 @@
   font-weight: 300;
   position: relative;
   margin-bottom: 3rem;
-
-
 }
 .title::before,
 .title::after {
@@ -37,7 +35,7 @@
   bottom: -1.2rem;
 }
 
-.jobs-section{
+.jobs-section {
   padding: 5rem 0;
   color: $small-heading-color;
 }
@@ -52,7 +50,6 @@
   justify-content: center;
   margin-bottom: 4rem;
 }
-
 
 .job-btn {
   background: transparent;
@@ -128,7 +125,7 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .employer{
+  .employer {
     font-size: 0.8rem;
   }
 }

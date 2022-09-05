@@ -2,17 +2,19 @@
   {
     "id": 0,
     "employer": "Pumas-AI",
+    "role": "Frontend Engineer",
     "workDone": [
       "Mostly worked on the Frontend of various Pumas Healthcare Analytics Tools",
-      "Led the frontend team rebuilding the Pumas NCA reporting and analysis tool from scratch making significant improvements to code re-usability, testing, and performance."
+      "Led the frontend team rebuilding the Pumas CP reporting and analysis tool from the ground up making significant improvements to code re-usability, testing, and performance."
     ],
     "period": "Jan 2022 - Present"
   },
   {
     "id": 1,
     "employer": "Juniqe",
+    "role": "Full-Stack Engineer",
     "workDone": [
-      "Implemented multiple lambda functions that powered the highly interactive web applications for Junique’s popular wall-art section and customer service tool",
+      "Implemented multiple AWS lambda functions that powered the highly interactive web applications for Junique’s popular wall-art section and customer service tool",
       "Heavily involved in the implementation of new features for the react-based customer service tool for Juniqe."
     ],
     "period": "Feb 2021 - November 2021"
@@ -20,6 +22,7 @@
   {
     "id": 2,
     "employer": "Aimform",
+    "role": "Full-Stack Engineer",
     "workDone": [
       "Analyzed requirements and designed, developed and implemented software applications for various clientele ranging from simple APIs to data analysis and visualization.",
       "Discussed project progress with customers, collected feedback on different stages, and directly addressed concerns.",
@@ -30,6 +33,7 @@
   {
     "id": 3,
     "employer": "Andela",
+    "role": "Software Engineer",
     "workDone": [
       "Engineered and maintained major features of Andela’s engineer placement process managing app.",
       "Orchestrated efficient large-scale software deployments, including testing features and correcting code."
@@ -39,7 +43,10 @@
   {
     "id": 4,
     "employer": "March 5 Design",
-    "workDone": ["Developed and maintained multiple applications for various clients. Worked with core technologies such as Python, Flask, Wordpress, JavaScript, HTML and (S)CSS"],
+    "role": "Software Engineer",
+    "workDone": [
+      "Developed and maintained multiple applications for various clients. Worked with core technologies such as Python, Flask, Wordpress, JavaScript, HTML and (S)CSS"
+    ],
     "period": "Nov 2017 - Aug 2018"
   }
 ]

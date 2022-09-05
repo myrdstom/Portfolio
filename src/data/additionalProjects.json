@@ -6,33 +6,20 @@
     "description": "Listicle brings all bloggers and blogs under one roof. From\ntechnology to relationships, climate change to business, bloggers\naround the world can showcase their articles and reviews",
     "videoLink": "https://www.loom.com/share/9487cc3ce9e049cdba50c8cd21ed86d4",
     "applicationLink": "https://listicle-react.herokuapp.com/",
-    "technologies": [
-      "React",
-      "Redux",
-      "Express",
-      "Node"
-    ]
+    "technologies": ["React", "Redux", "Express", "Node"]
   },
   {
     "id": 2,
     "projectName": "Pizzaforte",
     "description": "A simple chrome extension that tracks a user's actions on &nbsp;\n<a  style=\"color: #cacaca; text-decoration: none;\" \nhref=\"https://pizzaforte.hu\"\nclassName=\"pizzaforte\"\ntarget=\"_blank\"\nrel=\"nofollow noopener noreferrer\"\n >\npizzaforte\n</a> as they place various orders",
     "githubLink": "https://github.com/myrdstom/store-manager",
-    "technologies": [
-      "JavaScript",
-      "Google Chrome Extension"
-    ]
+    "technologies": ["JavaScript", "Google Chrome Extension"]
   },
   {
     "id": 3,
     "projectName": "Store Manager",
     "description": "Store Manager is a web application that helps store owners manage sales and product inventory records.",
     "githubLink": "https://github.com/myrdstom/store-manager",
-    "technologies": [
-      "Python",
-      "Flask",
-      "Flask-Restful",
-      "SQL"
-    ]
+    "technologies": ["Python", "Flask", "Flask-Restful", "SQL"]
   }
 ]
