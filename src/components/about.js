@@ -46,7 +46,7 @@ const AboutPage = () => {
           >
             {" "}
             <div className="contentTitle">
-              I'm an engineering powerhouse based in Kampala, Uganda.
+              I'm an engineering powerhouse based in Kigali, Rwanda.
             </div>
             I enjoy turning complex problems into simple, beautiful and
             intuitive and performant experiences. Here are a few technologies
