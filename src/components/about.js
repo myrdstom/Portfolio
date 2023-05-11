@@ -61,6 +61,8 @@ const AboutPage = () => {
               </div>
               <div>
                 <ul>
+                  <li>Node</li>
+                  <li>Express</li>
                   <li>Julia</li>
                 </ul>
               </div>
